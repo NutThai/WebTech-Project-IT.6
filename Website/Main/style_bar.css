@@ -1,0 +1,9 @@
+.nav_bar{
+    position: sticky;
+    transition: padding;
+    background: var(--ci1);
+}
+
+.nav_menu_btn:hover{
+    background:hsla(340,100%,70%,1);
+}
