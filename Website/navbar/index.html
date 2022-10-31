@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbarเอาจริงละ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="navbar_style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon">
+                <span class="fas fa-bars"></span>
+            </div>
+            <div class="search-icon">
+                <span class="fas fa-search"></span>
+            </div>
+            <div class="logo">STUN</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <label class="show" for="btn-1">Bakery <span class="fas fa-caret-down"></span></label>
+                    <a href="#Bakery">Bakery</a>
+                    <input type="checkbox" name="btn-1" id="btn-1">
+                    <ul>
+                        <li><a href="#cake">Cake</a></li>
+                        <li><a href="#cookie">Cookie</a></li>
+                        <li><a href="#bread">Bread</a></li>
+                        <li><a href="#donut">Donut</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <label class="show" for="btn-2">Cafe<span class="fas fa-caret-down"></span></label>
+                    <a href="#Cafe">Cafe</i></a>
+                    <input type="checkbox" name="btn-2" id="btn-2">
+                    <ul>
+                        <li><a href="#coffee">Coffee</a></li>
+                        <li><a href="#milk">Milk</a></li>
+                        <li><a href="#tea">Tea</a></li>
+                        <li><a href="#soda">Soda</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="cancel-icon">
+                <span class="fas fa-times"></span>
+            </div>
+            <form action="#">
+                <div class="hide-search-icon">
+                    <span class="fas fa-chevron-up"></span>
+                </div>
+                <input type="search" class="search-data" placeholder="Something" required>
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+            <div class="user-icon">
+                <span class="fas fa-user"></span>
+            </div>
+            <div class="cart-icon">
+                <span class="fas fa-shopping-cart"></span>
+            </div>
+        </nav>
+    </header>
+    <div class="cartdrawer">
+        <div class="headcart">
+            <div class="headtextcart">
+                Shopping Cart
+            </div>
+            <div class="cancle-cart">
+                <span class="fas fa-times"></span>
+            </div>
+        </div>
+        <div class="cartcontainer">
+            <p>Your cart is currently empty.</p>
+        </div>
+    </div>
+    <div class="userdrawer">
+        <div>
+            <div class="profile">
+                <span class="fas fa-user-astronaut"></span>
+            </div>
+            <div class="detailuser">
+                64070130@kmitl.ac.th
+            </div>
+        </div>
+        <button type="submit">LOG OUT</button>
+    </div>
+
+</body>
+
+<script>
+    const menuBtn = document.querySelector(".menu-icon span");
+    const searchBtn = document.querySelector(".search-icon");
+    const cancelBtn = document.querySelector(".cancel-icon");
+    const item = document.querySelector("ul");
+    const menu = document.querySelector(".menu-icon");
+    const form = document.querySelector("form");
+    const user = document.querySelector(".user-icon");
+    const cart = document.querySelector(".cart-icon");
+    const hidesearch = document.querySelector(".hide-search-icon");
+    const cartdrawer = document.querySelector(".cartdrawer");
+    const canclecart = document.querySelector(".cancle-cart");
+    const userdrawer = document.querySelector(".userdrawer");
+
+    menuBtn.onclick = () => {
+        item.classList.add("active");
+        menuBtn.classList.add("hide");
+        searchBtn.classList.add("hide");
+        cancelBtn.classList.add("show");
+        user.classList.add("hide");
+        cart.classList.add("hide");
+    }
+
+    cancelBtn.onclick = () => {
+        item.classList.remove("active");
+        menuBtn.classList.remove("hide");
+        searchBtn.classList.remove("hide");
+        cancelBtn.classList.remove("show");
+        form.classList.remove("active");
+        user.classList.remove("hide");
+        cart.classList.remove("hide");
+    }
+
+    searchBtn.onclick = () => {
+        form.classList.add("active");
+    }
+
+    hidesearch.onclick = () => {
+        form.classList.remove("active");
+    }
+
+    cart.onclick = () => {
+        cartdrawer.classList.add("active");
+        userdrawer.classList.remove("active");
+    }
+
+    canclecart.onclick = () => {
+        cartdrawer.classList.remove("active");
+    }
+
+    user.onclick = () => {
+        userdrawer.classList.toggle("active");
+        cartdrawer.classList.remove("active");
+    }
+
+
+</script>
+
+</html>
