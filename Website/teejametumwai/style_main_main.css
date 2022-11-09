@@ -240,15 +240,3 @@ footer {
     color: var(--ci1);
     padding: 0px 10px;
 }
-
-.h4 {
-    color: var(--ci6); 
-}
-
-h3 {
-    color: var(--ci6);
-}
-
-h6 {
-    color: #717171;
-}

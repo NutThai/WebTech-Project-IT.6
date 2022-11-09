@@ -6,3 +6,15 @@ body{
     --ci5:hsla(208, 100%, 15%, 1);
     --ci6:hsla(0,0%,100%,1);
 }
+
+.h4 {
+    color: var(--ci6); 
+}
+
+h3 {
+    color: var(--ci6);
+}
+
+h6 {
+    color: #717171;
+}
