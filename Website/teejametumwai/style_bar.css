@@ -424,6 +424,7 @@ table{
 }
 tr{
     width: 100%;
+    
 }
 td{
     text-align: center;
@@ -443,6 +444,16 @@ td{
     width: 300px;
     text-align: left;
     padding: 0 20px;
+}
+.gap{
+    width: 40px;
+}
+.count{
+    width: 50px;
+}
+button{
+    background-color: transparent;
+    border: transparent;
 }
 nav .exul ul {
     position: absolute;
