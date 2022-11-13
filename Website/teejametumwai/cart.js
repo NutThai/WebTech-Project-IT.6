@@ -44,7 +44,7 @@ function addToCart(e) {
     }
 
     // update cart ใน localStorage
-    localStorage.setItem("allcart", JSON.stringify(cart))
+    localStorage.setItem("allcart", JSON.stringify(incart))
     // showMe()
 }
 function removeFromCart(e) {
@@ -64,7 +64,7 @@ function removeFromCart(e) {
         }
         incart[id] = item
     }
-    localStorage.setItem("allcart", JSON.stringify(cart))
+    localStorage.setItem("allcart", JSON.stringify(incart))
     // showMe()
 }
 function showMe() {
