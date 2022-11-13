@@ -496,6 +496,7 @@ nav .exul li input {
     background-color: var(--ci6);
     z-index: 100;
     transition: .5s;
+
 }
 
 .cartive.active {

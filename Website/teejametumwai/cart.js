@@ -31,6 +31,11 @@ function productPage(e) {
     localStorage.setItem("productPage", id)
     window.location.href = 'detail.html'
 }
+function categoryPage(e) {
+    cate = e.dataset.category
+    localStorage.setItem("categoryPage", cate)
+    window.location.href = 'category.html'
+}
 function addToCart(e) {
     id = Number(e.dataset.id)
     if (id in incart && incart[id] != null) {
