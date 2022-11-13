@@ -53,16 +53,11 @@ nav .exul li a {
     font-weight: 600;
     font-size: 20px;
     text-decoration: none;
-    
-
 }
 
 nav .exul li a:hover {
     color: var(--ci3);
     /* text-decoration: underline; */
-
-
-
 }
 
 .underline {
@@ -152,6 +147,103 @@ nav .search-icon2 {
     display: block;
 }
 
+.cartive {
+    position: fixed;
+    top: 0;
+    right: -500px;
+    width: 500px;
+    height: 100%;
+    background-color: var(--ci6);
+    z-index: 100;
+    transition: .5s;
+}
+
+.cartive.active {
+    right: 0;
+    background-color: var(--ci6);
+}
+
+.cartive .cancel-icon2 {
+    width: 20px;
+    color: var(--ci6);
+    flex: 1;
+    text-align: right;
+    
+}
+
+.whencartive {
+    z-index: -2;
+    background-color: var(--ci6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    opacity: 0;
+    transition: .2s;
+    top: 0;
+    
+}
+
+.whencartive.active {
+    z-index: 100;
+    background-color: var(--ci6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    opacity: 0.5;
+}
+
+.cart_nav {
+    background-color: var(--ci1);
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.cart_nav div {
+    flex: 1;
+    padding: 15px;
+}
+
+nav .exul ul {
+    position: absolute;
+    top: 60px;
+    height: auto;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--ci2);
+    visibility: hidden;
+    transition: top .3s;
+    width: 150px;
+    list-style-type: none;
+    margin-left: -45px;
+}
+
+nav .exul li:hover>ul {
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+
+nav .exul ul li {
+    position: relative;
+    margin: 0px;
+    width: 80px;
+    float: none;
+    display: list-item;
+    text-align: center;
+    padding: 0 40px;
+}
+
+nav .exul ul li a {
+    line-height: 50px;
+}
+
+nav .exul li .show,
+nav .exul li input {
+    display: none;
+}
+
 @media (max-width: 1245px) {
     nav {
         padding: 0 50px;
@@ -189,12 +281,6 @@ nav .search-icon2 {
         transition: top 0.8 ease, opacity 0.2s ease;
     }
 
-    nav form.active {
-        opacity: 1;
-        top: 95px;
-        pointer-events: none;
-    }
-
     nav form::before {
         position: absolute;
         content: "";
@@ -222,6 +308,12 @@ nav .search-icon2 {
         transform: translate(-50%, -50%);
     }
 
+    nav form.active {
+        opacity: 1;
+        top: 95px;
+        pointer-events: none;
+    }
+
     nav .exul {
         position: fixed;
         z-index: 99;
@@ -245,10 +337,43 @@ nav .search-icon2 {
         line-height: 40px;
         margin: 30px 0;
         padding: 0;
+        cursor: pointer;
+    }
+
+    nav .exul ul {
+        position: static;
+        float: none;
+        background-color: rgb(244, 199, 140);
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    nav .exul li .show {
+        display: block;
+        color: black;
+        font-size: 20px;
+        font-weight: 800;
+        padding: 0;
+        line-height: 70px;
+        cursor: pointer;
+    }
+
+    nav .exul li .show:hover {
+        color: rgb(120, 71, 11);
     }
 
     nav .exul li a {
         font-size: 20px;
+    }
+
+    nav .exul li .show+a,
+    .exul {
+        display: none;
+    }
+
+    nav .exul ul li a {
+        padding-left: 40px;
     }
 
     nav .menu-icon {
@@ -269,10 +394,10 @@ nav .search-icon2 {
         display: block;
         z-index: 100;
     }
+
     [id^=btn]:checked+ul {
         display: block;
     }
-
 
     nav .exul.active {
         left: 0;
@@ -285,6 +410,7 @@ nav .search-icon2 {
         cursor: pointer;
     }
 
+<<<<<<< Updated upstream
     nav .exul ul {
         position: static;
         float: none;
@@ -317,6 +443,8 @@ nav .search-icon2 {
         padding-left: 40px;
     }
 
+=======
+>>>>>>> Stashed changes
     nav .exul ul li {
         line-height: 40px;
         border-bottom: none;
@@ -360,6 +488,7 @@ nav .search-icon2 {
         right: 10px;
     }
 
+<<<<<<< Updated upstream
 }
 
 .cartive {
@@ -499,3 +628,6 @@ nav .exul li input {
 }
 
 
+=======
+}
+>>>>>>> Stashed changes
