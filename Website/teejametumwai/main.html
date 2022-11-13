@@ -40,24 +40,24 @@
             <li><a class="underline" href="main.html">Home</a></li>
                 <li>
                     <label class="show" for="btn-1">Bakery <span class="fas fa-caret-down"></span></label>
-                    <a class="underline" href="#Bakery">Bakery</a>
+                    <a class="underline" data-category="bakery" onclick="categoryPage(this)">Bakery</a>
                     <input type="checkbox" name="btn-1" id="btn-1">
                     <ul>
-                        <li><a href="#cake">Cake</a></li>
-                        <li><a href="#cookie">Cookie</a></li>
-                        <li><a href="#bread">Bread</a></li>
-                        <li><a href="#donut">Donut</a></li>
+                        <li><a data-category="cake" onclick="categoryPage(this)">Cake</a></li>
+                        <li><a data-category="cookie" onclick="categoryPage(this)">Cookie</a></li>
+                        <li><a data-category="bread" onclick="categoryPage(this)">Bread</a></li>
+                        <li><a data-category="donut" onclick="categoryPage(this)">Donut</a></li>
                     </ul>
                 </li>
                 <li>
                     <label class="show" for="btn-2">Cafe<span class="fas fa-caret-down"></span></label>
-                    <a class="underline" href="#Cafe">Cafe</i></a>
+                    <a class="underline" data-category="cafe" onclick="categoryPage(this)">Cafe</i></a>
                     <input type="checkbox" name="btn-2" id="btn-2">
                     <ul>
-                        <li><a href="#coffee">Coffee</a></li>
-                        <li><a href="#milk">Milk</a></li>
-                        <li><a href="#tea">Tea</a></li>
-                        <li><a href="#soda">Soda</a></li>
+                        <li><a data-category="coffee" onclick="categoryPage(this)">Coffee</a></li>
+                        <li><a data-category="milk" onclick="categoryPage(this)">Milk</a></li>
+                        <li><a data-category="tea" onclick="categoryPage(this)">Tea</a></li>
+                        <li><a data-category="soda" onclick="categoryPage(this)">Soda</a></li>
                     </ul>
                 </li>
             <!-- <li><a href="#" class="underline">About</a></li> -->

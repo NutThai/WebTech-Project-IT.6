@@ -1,7 +1,7 @@
 [
     {
         "category":"bakery",
-        "sub-category":"cake",
+        "subcategory":"cake",
         "recommend":"true",
         "id": "00",
         "name": "เค้กเรดเวลเวต",
@@ -11,7 +11,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"cake",
+        "subcategory":"cake",
         "recommend":"true",
         "id": "01",
         "name": "ทีรามิสุ",
@@ -21,7 +21,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"cake",
+        "subcategory":"cake",
         "recommend":"false",
         "id": "02",
         "name": "แบล็คฟอเรสเค้ก",
@@ -31,7 +31,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"cake",
+        "subcategory":"cake",
         "recommend":"false",
         "id": "03",
         "name": "เค้กบราวนี่",
@@ -41,7 +41,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"cookie",
+        "subcategory":"cookie",
         "recommend":"true",
         "id": "04",
         "name": "คุกกี้ช็อคโกแลตชิพ",
@@ -51,7 +51,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"cookie",
+        "subcategory":"cookie",
         "recommend":"true",
         "id": "05",
         "name": "คุกกี้พีนัทบัตเตอร์",
@@ -61,7 +61,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"cookie",
+        "subcategory":"cookie",
         "recommend":"false",
         "id": "06",
         "name": "คุกกี้แมคคาเดเมีย",
@@ -71,7 +71,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"cookie",
+        "subcategory":"cookie",
         "recommend":"false",
         "id": "07",
         "name": "คุกกี้ข้าวโอ๊ต",
@@ -81,7 +81,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"bread",
+        "subcategory":"bread",
         "recommend":"true",
         "id": "08",
         "name": "ครัวซอง",
@@ -91,7 +91,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"bread",
+        "subcategory":"bread",
         "recommend":"true",
         "id": "09",
         "name": "ขนมปังฝรั่งเศส",
@@ -101,7 +101,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"bread",
+        "subcategory":"bread",
         "recommend":"false",
         "id": "10",
         "name": "เพรทเซล",
@@ -111,7 +111,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"bread",
+        "subcategory":"bread",
         "recommend":"false",
         "id": "11",
         "name": "แซนวิช",
@@ -121,7 +121,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"donut",
+        "subcategory":"donut",
         "recommend":"false",
         "id": "12",
         "name": "โดนัทใส่แยม",
@@ -131,7 +131,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"donut",
+        "subcategory":"donut",
         "recommend":"false",
         "id": "13",
         "name": "โดนัทช็อกโกแลต",
@@ -141,7 +141,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"donut",
+        "subcategory":"donut",
         "recommend":"false",
         "id": "14",
         "name": "โดนัทเคลือบน้ำตาล",
@@ -151,7 +151,7 @@
     },
     {
         "category":"bakery",
-        "sub-category":"donut",
+        "subcategory":"donut",
         "recommend":"false",
         "id": "15",
         "name": "โดนัทสตอเบอรี่",
@@ -161,7 +161,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"coffee",
+        "subcategory":"coffee",
         "recommend":"false",
         "id": "16",
         "name": "เอสเพรสโซ",
@@ -171,7 +171,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"coffee",
+        "subcategory":"coffee",
         "recommend":"false",
         "id": "17",
         "name": "อเมริกาโน",
@@ -181,7 +181,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"coffee",
+        "subcategory":"coffee",
         "recommend":"false",
         "id": "18",
         "name": "ลาเต้",
@@ -191,7 +191,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"coffee",
+        "subcategory":"coffee",
         "recommend":"false",
         "id": "19",
         "name": "คาปูชิโน",
@@ -201,7 +201,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"milk",
+        "subcategory":"milk",
         "recommend":"false",
         "id": "20",
         "name": "นมมรกต",
@@ -211,7 +211,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"milk",
+        "subcategory":"milk",
         "recommend":"false",
         "id": "21",
         "name": "โกโก้",
@@ -221,7 +221,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"milk",
+        "subcategory":"milk",
         "recommend":"false",
         "id": "22",
         "name": "นมสด",
@@ -231,7 +231,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"milk",
+        "subcategory":"milk",
         "recommend":"false",
         "id": "23",
         "name": "นมชมพู",
@@ -241,7 +241,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"tea",
+        "subcategory":"tea",
         "recommend":"false",
         "id": "24",
         "name": "ชาไทย",
@@ -251,7 +251,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"tea",
+        "subcategory":"tea",
         "recommend":"false",
         "id": "25",
         "name": "ชาดำ",
@@ -261,7 +261,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"tea",
+        "subcategory":"tea",
         "recommend":"false",
         "id": "26",
         "name": "ชามะนาว",
@@ -271,7 +271,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"tea",
+        "subcategory":"tea",
         "recommend":"false",
         "id": "27",
         "name": "ชาเขียวนม",
@@ -281,7 +281,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"soda",
+        "subcategory":"soda",
         "recommend":"false",
         "id": "28",
         "name": "บลูฮาวาย",
@@ -291,7 +291,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"soda",
+        "subcategory":"soda",
         "recommend":"false",
         "id": "29",
         "name": "อิตตาเลี่ยนโซดา",
@@ -301,7 +301,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"soda",
+        "subcategory":"soda",
         "recommend":"false",
         "id": "30",
         "name": "แมงโก้โซดา",
@@ -311,7 +311,7 @@
     },
     {
         "category":"cafe",
-        "sub-category":"soda",
+        "subcategory":"soda",
         "recommend":"false",
         "id": "31",
         "name": "แดงโซดา",
