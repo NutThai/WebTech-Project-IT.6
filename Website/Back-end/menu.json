@@ -7,10 +7,7 @@
         "name": "เค้กเรดเวลเวต",
         "detail": "คือเค้กที่มีสีแดงเข้ม แดงอ่อน หรือสีน้ำตาลแดง ส่วนผสมทั่วไปของเค้กเรดเวลเวต ได้แก่ นมเนย เนย โกโก้ และแป้งประกอบอาหาร สำหรับตัวเค้ก และบีตรูต หรือสีผสมอาหาร สำหรับสีของเค้ก",
         "price": "620",
-        "img1": "redVelvetCake1.jpg",
-        "img2": "redVelvetCake2.jpg",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["redVelvetCake1.jpg", "redVelvetCake2.jpg", "placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -20,10 +17,7 @@
         "name": "ทีรามิสุ",
         "detail": "xxx2",
         "price": "620",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -33,10 +27,7 @@
         "name": "แบล็คฟอเรสเค้ก",
         "detail": "xxx3",
         "price": "620",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -46,10 +37,7 @@
         "name": "เค้กบราวนี่",
         "detail": "xxx4",
         "price": "620",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -59,10 +47,7 @@
         "name": "คุกกี้ช็อคโกแลตชิพ",
         "detail": "xxx1",
         "price": "35",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -72,10 +57,7 @@
         "name": "คุกกี้พีนัทบัตเตอร์",
         "detail": "xxx2",
         "price": "35",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -85,10 +67,7 @@
         "name": "คุกกี้แมคคาเดเมีย",
         "detail": "xxx3",
         "price": "35",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -98,10 +77,7 @@
         "name": "คุกกี้ข้าวโอ๊ต",
         "detail": "xxx4",
         "price": "35",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -111,10 +87,7 @@
         "name": "ครัวซอง",
         "detail": "xxx1",
         "price": "40",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -124,10 +97,7 @@
         "name": "ขนมปังฝรั่งเศส",
         "detail": "xxx2",
         "price": "40",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -137,10 +107,7 @@
         "name": "เพรทเซล",
         "detail": "xxx3",
         "price": "40",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -150,10 +117,7 @@
         "name": "แซนวิช",
         "detail": "xxx4",
         "price": "40",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -163,10 +127,7 @@
         "name": "โดนัทสตรอเบอรี่",
         "detail": "xxx1",
         "price": "20",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -176,23 +137,17 @@
         "name": "โดนัทช็อกโกแลต",
         "detail": "xxx2",
         "price": "20",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
         "sub-category":"donut",
         "recommend":"false",
         "id": "14",
-        "name": "โดนัทเคลือบน้ำตาล ",
+        "name": "โดนัทเคลือบน้ำตาล",
         "detail": "xxx3",
         "price": "20",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"bakery",
@@ -202,10 +157,7 @@
         "name": "โดนัทไส้แยม",
         "detail": "xxx4",
         "price": "20",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -215,10 +167,7 @@
         "name": "เอสเพรสโซ",
         "detail": "xxx1",
         "price": "50",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -228,10 +177,7 @@
         "name": "อเมริกาโน",
         "detail": "xxx2",
         "price": "50",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -241,10 +187,7 @@
         "name": "ลาเต้",
         "detail": "xxx3",
         "price": "60",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -254,10 +197,7 @@
         "name": "คาปูชิโน",
         "detail": "xxx4",
         "price": "60",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -267,10 +207,7 @@
         "name": "นมมรกต",
         "detail": "xxx1",
         "price": "50",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -280,10 +217,7 @@
         "name": "โกโก้",
         "detail": "xxx2",
         "price": "50",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -293,10 +227,7 @@
         "name": "นมสด",
         "detail": "xxx3",
         "price": "50",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -306,10 +237,7 @@
         "name": "นมชมพู",
         "detail": "xxx4",
         "price": "50",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -319,10 +247,7 @@
         "name": "ชาไทย",
         "detail": "xxx1",
         "price": "50",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -332,10 +257,7 @@
         "name": "ชาดำ",
         "detail": "xxx2",
         "price": "50",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -345,10 +267,7 @@
         "name": "ชามะนาว",
         "detail": "xxx3",
         "price": "50",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -358,10 +277,7 @@
         "name": "ชาเขียวนม",
         "detail": "xxx4",
         "price": "50",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -371,10 +287,7 @@
         "name": "บลูฮาวาย",
         "detail": "xxx1",
         "price": "60",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -384,10 +297,7 @@
         "name": "อิตตาเลี่ยนโซดา",
         "detail": "xxx2",
         "price": "60",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -397,10 +307,7 @@
         "name": "แมงโก้โซดา",
         "detail": "xxx3",
         "price": "60",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     },
     {
         "category":"cafe",
@@ -410,9 +317,6 @@
         "name": "แดงโซดา",
         "detail": "xxx4",
         "price": "60",
-        "img1": "placeholder.png",
-        "img2": "placeholder.png",
-        "img3": "placeholder.png",
-        "img4": "placeholder.png"
+        "img": ["placeholder.png", "placeholder.png"]
     }
 ]
