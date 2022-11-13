@@ -45,7 +45,7 @@ nav .exul {
 
 nav .exul li {
     padding: 20px 15px;
-    
+
 }
 
 nav .exul li a {
@@ -168,7 +168,7 @@ nav .search-icon2 {
     color: var(--ci6);
     flex: 1;
     text-align: right;
-    
+
 }
 
 .whencartive {
@@ -180,7 +180,7 @@ nav .search-icon2 {
     opacity: 0;
     transition: .2s;
     top: 0;
-    
+
 }
 
 .whencartive.active {
@@ -330,7 +330,7 @@ nav .exul li input {
 
     nav .exul.active {
         left: 0%;
-      
+
     }
 
     nav .exul li {
@@ -351,7 +351,7 @@ nav .exul li input {
 
     nav .exul li .show {
         display: block;
-        color: black;
+        color: var(--ci6);
         font-size: 20px;
         font-weight: 800;
         padding: 0;
@@ -360,7 +360,7 @@ nav .exul li input {
     }
 
     nav .exul li .show:hover {
-        color: rgb(120, 71, 11);
+        color: var(--ci3);
     }
 
     nav .exul li a {
@@ -368,7 +368,7 @@ nav .exul li input {
     }
 
     nav .exul li .show+a,
-    .exul {
+    ul {
         display: none;
     }
 
@@ -441,6 +441,7 @@ nav .exul li input {
     nav .exul ul li a {
         padding-left: 40px;
     }
+
     nav .exul ul li {
         line-height: 40px;
         border-bottom: none;
@@ -543,42 +544,52 @@ nav .exul li input {
     flex: 1;
     padding: 15px;
 }
-table{
+
+table {
     width: 100%;
 }
-tr{
+
+tr {
     width: 100%;
-    
+
 }
-td{
+
+td {
     text-align: center;
 }
-.img_cart{
+
+.img_cart {
     height: 90%;
     width: 90%;
     justify-content: center;
-    
+
 
 }
-.cartimg{
+
+.cartimg {
     width: 100px;
     height: 100px;
 }
-.cartname{
+
+.cartname {
     width: 300px;
     text-align: left;
     padding: 0 20px;
 }
-.gap{
+
+.gap {
     width: 40px;
 }
-.count{
+
+.count {
     width: 50px;
 }
-button{
+
+button {
     background-color: transparent;
     border: transparent;
 }
+
 nav .exul ul {
     position: absolute;
     top: 60px;
@@ -608,13 +619,10 @@ nav .exul ul li {
     display: list-item;
     text-align: center;
     padding: 0 40px;
-    
-
 }
 
 nav .exul ul li a {
     line-height: 50px;
-    
 }
 
 nav .exul li .show,
