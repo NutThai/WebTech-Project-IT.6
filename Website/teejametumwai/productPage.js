@@ -8,11 +8,12 @@ function loadJSON() {
                 img += `<img class="img" src="img/${data[localStorage.productPage].img[i]}" alt="cat-1" />`;
             }
 
-                productPage += `
+            productPage += `
                     <div class="main_left">
                     <img class="main_left_img" src="img/${data[localStorage.productPage].img[0]}" alt="cat-1" />
                     <div class=" main_left_secimg">
                         ${img}
+                    </div>
                 </div>
                 <div class="main_right">
                     <h4 class="category">${data[localStorage.productPage].category}</h4>
