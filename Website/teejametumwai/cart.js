@@ -1,8 +1,8 @@
 
 if (localStorage.allcart == null) {
-    var cart = []
+    var incart = []
 } else {
-    var cart = JSON.parse(localStorage.allcart)
+    var incart = JSON.parse(localStorage.allcart)
 }
 function calculateCart(){
     let total = 0
@@ -10,9 +10,9 @@ function calculateCart(){
         .then(response => response.json())
         .then(data => {
             data.forEach(product => {
-                if(cart[Number(product.id)] != null && cart[Number(product.id)].qty != 0){
+                if(incart[Number(product.id)] != null && incart[Number(product.id)].qty != 0){
 
-                    total += Number(product.price)*Number(cart[Number(product.id)].qty);
+                    total += Number(product.price)*Number(incart[Number(product.id)].qty);
                 }
                 
             });
@@ -33,14 +33,14 @@ function productPage(e) {
 }
 function addToCart(e) {
     id = Number(e.dataset.id)
-    if (id in cart && cart[id] != null) {
-        cart[id].qty++
+    if (id in incart && incart[id] != null) {
+        incart[id].qty++
     } else {
         let item = {
             id: id,
             qty: 1
         }
-        cart[id] = item
+        incart[id] = item
     }
 
     // update cart ใน localStorage
@@ -49,12 +49,12 @@ function addToCart(e) {
 }
 function removeFromCart(e) {
     id = Number(e.dataset.id)
-    if (id in cart && cart[id] != null) {
-        if (cart[id].qty > 0) {
-            cart[id].qty--
+    if (id in incart && incart[id] != null) {
+        if (incart[id].qty > 0) {
+            incart[id].qty--
         }
         else {
-            cart[id].qty = 0
+            incart[id].qty = 0
         }
     }
     else {
@@ -62,7 +62,7 @@ function removeFromCart(e) {
             id: id,
             qty: 0
         }
-        cart[id] = item
+        incart[id] = item
     }
     localStorage.setItem("allcart", JSON.stringify(cart))
     // showMe()
@@ -78,8 +78,8 @@ function showMe() {
     cartmenu.setAttribute("class", "cartmenu")
     cartmenu.setAttribute("id", "cartmenu")
     while (cart.length > i) {
-        if (cart[i] != null && cart[i].qty != 0) {
-            text = JSON.stringify(cart[i].qty)
+        if (incart[i] != null && incart[i].qty != 0) {
+            text = JSON.stringify(incart[i].qty)
             document.getElementById("cartmenu").appendChild(document.createElement('div'))
             document.getElementById("cartmenu").lastChild.innerHTML = text
 
