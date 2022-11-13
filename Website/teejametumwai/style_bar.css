@@ -410,7 +410,6 @@ nav .exul li input {
         cursor: pointer;
     }
 
-<<<<<<< Updated upstream
     nav .exul ul {
         position: static;
         float: none;
@@ -442,9 +441,6 @@ nav .exul li input {
     nav .exul ul li a {
         padding-left: 40px;
     }
-
-=======
->>>>>>> Stashed changes
     nav .exul ul li {
         line-height: 40px;
         border-bottom: none;
@@ -488,7 +484,6 @@ nav .exul li input {
         right: 10px;
     }
 
-<<<<<<< Updated upstream
 }
 
 .cartive {
@@ -626,8 +621,3 @@ nav .exul li .show,
 nav .exul li input {
     display: none;
 }
-
-
-=======
-}
->>>>>>> Stashed changes
