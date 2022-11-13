@@ -419,7 +419,31 @@ nav .search-icon2 {
     flex: 1;
     padding: 15px;
 }
+table{
+    width: 100%;
+}
+tr{
+    width: 100%;
+}
+td{
+    text-align: center;
+}
+.img_cart{
+    height: 90%;
+    width: 90%;
+    justify-content: center;
+    
 
+}
+.cartimg{
+    width: 100px;
+    height: 100px;
+}
+.cartname{
+    width: 300px;
+    text-align: left;
+    padding: 0 20px;
+}
 nav .exul ul {
     position: absolute;
     top: 60px;
