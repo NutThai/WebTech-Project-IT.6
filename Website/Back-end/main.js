@@ -8,7 +8,7 @@ function loadJSON() {
                 if(product.recommend == "true"){
                 recommend += `
                         <div>
-                            <img class="recommend_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img1}" alt="cat-1" />
+                            <img class="recommend_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                             <div class="text_product">
                                 <h4>${product.name}</h3>
                                     <h6>${product.price} THB</h5>
@@ -19,7 +19,7 @@ function loadJSON() {
                 }
                 main_content_3 += `
                 <div>
-                    <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img1}" alt="cat-1" />
+                    <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                     
                     <div class="text_product">
                         <h4>${product.name}</h3>
