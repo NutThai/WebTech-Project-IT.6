@@ -14,7 +14,7 @@
         "subcategory":"cake",
         "recommend":"true",
         "id": "01",
-        "name": "Tiramisu",
+        "name": "Thiramisu",
         "detail": "an elegant and rich layered Italian dessert made with delicate ladyfinger cookies, espresso or instant espresso, mascarpone cheese, eggs, sugar, Marsala wine, rum and cocoa powder.",
         "price": "259",
         "img": ["tiramisu-1.jpg", "tiramisu-2.jpg", "tiramisu-3.jpg", "tiramisu-4.jpg"]
@@ -84,9 +84,9 @@
         "subcategory":"bread",
         "recommend":"true",
         "id": "08",
-        "name": "ครัวซอง",
-        "detail": "xxx1",
-        "price": "40",
+        "name": "Croissant",
+        "detail": "are named for their historical crescent shape, the dough is layered with butter, rolled and folded several times in succession, then rolled into a thin sheet, in a technique called laminating.",
+        "price": "69",
         "img": ["croissant_1.jpg", "croissant_2.jpg","croissant_3.jpg", "croissant_4.jpg"]
     },
     {
@@ -94,9 +94,9 @@
         "subcategory":"bread",
         "recommend":"true",
         "id": "09",
-        "name": "ขนมปังฝรั่งเศส",
-        "detail": "xxx2",
-        "price": "40",
+        "name": "Baguette",
+        "detail": "is a long, thin type of bread of French origin that is commonly made from basic lean dough. It is distinguishable by its length and crisp crust. A traditional French baguette is made of flour, water, yeast and salt. It's fascinating how these four simple ingredients produce a beautiful, flavorful, crusty baguette.",
+        "price": "129",
         "img": ["baguette_1.jpg", "baguette_2.jpg", "baguette_3.webp","baguette_4.jpg"]
     },
     {
@@ -104,9 +104,9 @@
         "subcategory":"bread",
         "recommend":"false",
         "id": "10",
-        "name": "เพรทเซล",
-        "detail": "xxx3",
-        "price": "40",
+        "name": "Pretzel",
+        "detail": "a type of baked bread made from dough that is commonly shaped into a knot. Is made of flour, water, yeast and salt.",
+        "price": "99",
         "img": ["pretzel_1.jpg", "pretzel_2.jpg", "pretzel_3.jpg", "pretzel_4.jpg"]
     },
     {
