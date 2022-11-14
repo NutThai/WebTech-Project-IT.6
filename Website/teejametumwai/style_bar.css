@@ -55,7 +55,7 @@ nav .exul li a {
     text-decoration: none;
 }
 
-nav .exul li a:hover {
+nav .exul li a:hover{
     color: var(--ci3);
     /* text-decoration: underline; */
 }
@@ -212,6 +212,7 @@ nav .exul ul {
     padding: 5px;
     border-radius: 5px;
     background-color: var(--ci2);
+    color: var(--ci6);
     visibility: hidden;
     transition: top .3s;
     width: 150px;
