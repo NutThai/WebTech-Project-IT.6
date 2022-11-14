@@ -5,8 +5,8 @@
         "recommend":"true",
         "id": "00",
         "name": "Red velvet cake",
-        "detail": "traditionally a red, red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing. Traditional recipes do not use food coloring, with the red color due to non-Dutched, anthocyanin-rich cocoa. ",
-        "price": "620",
+        "detail": "traditionally a red, red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing. Traditional recipes do not use food coloring, with the red color due to non-Dutched, anthocyanin-rich cocoa. Common ingredients include buttermilk, butter, cocoa, vinegar, and flour. Beet juice or red food coloring may be used for the color.",
+        "price": "279",
         "img": ["red-velvet-1.jpg", "red-velvet-2.jpg", "red-velvet-3.jpg"]
     },
     {
@@ -14,9 +14,9 @@
         "subcategory":"cake",
         "recommend":"true",
         "id": "01",
-        "name": "ทีรามิสุ",
-        "detail": "xxx2",
-        "price": "620",
+        "name": "Tiramisu",
+        "detail": "an elegant and rich layered Italian dessert made with delicate ladyfinger cookies, espresso or instant espresso, mascarpone cheese, eggs, sugar, Marsala wine, rum and cocoa powder.",
+        "price": "259",
         "img": ["tiramisu-1.jpg", "tiramisu-2.jpg", "tiramisu-3.jpg", "tiramisu-4.jpg"]
     },
     {
@@ -24,9 +24,9 @@
         "subcategory":"cake",
         "recommend":"false",
         "id": "02",
-        "name": "แบล็คฟอเรสเค้ก",
-        "detail": "xxx3",
-        "price": "620",
+        "name": "Black forest cake",
+        "detail": "consists of several layers of chocolate sponge cake sandwiched with whipped cream and sour cherries. It is decorated with additional whipped cream, maraschino cherries, and chocolate shavings.",
+        "price": "279",
         "img": ["black-forest-cake-1.jpg", "black-forest-cake-2.jpg","black-forest-cake-3.jpg"]
     },
     {
@@ -34,9 +34,9 @@
         "subcategory":"cake",
         "recommend":"false",
         "id": "03",
-        "name": "เค้กบราวนี่",
-        "detail": "xxx4",
-        "price": "620",
+        "name": "Brownie Cake",
+        "detail": "This moist and tender cake is made using real chocolate butter, milk, eggs and boasts a crackly, meringue-like crust.",
+        "price": "199",
         "img": ["Brownies-1.jpg", "Brownies-2.jpg","Brownies-3.jpg"]
     },
     {
@@ -44,9 +44,9 @@
         "subcategory":"cookie",
         "recommend":"true",
         "id": "04",
-        "name": "คุกกี้ช็อคโกแลตชิพ",
-        "detail": "xxx1",
-        "price": "35",
+        "name": "Chocolate chip Cookie",
+        "detail": "Generally, the recipe starts with a dough composed of flour, butter, both brown and white sugar, semi-sweet chocolate chips, eggs, and vanilla.",
+        "price": "59",
         "img": ["chocolate-chip-cookies-1.jpg","chocolate-chip-cookies-2.jpg", "chocolate-chip-cookies-3.jpg","chocolate-chip-cookies-4.jpg"]
     },
     {
@@ -54,19 +54,19 @@
         "subcategory":"cookie",
         "recommend":"true",
         "id": "05",
-        "name": "คุกกี้พีนัทบัตเตอร์",
-        "detail": "xxx2",
-        "price": "35",
-        "img": ["peanut_cookies_1.jpg", "peanut_cookies_2.jpg", "peanut_cookies_3.jpg", "peanut_cookies_4.jpg"]
+        "name": "Peanut Butter Cookie",
+        "detail": "distinguished for having peanut butter as a principal ingredient, sugar, eggs, flour and vanilla.",
+        "price": "59",
+        "img": ["peanut-cookies_1.webp", "peanut-cookies_2.webp", "peanut-cookies_3.jpg", "peanut-cookies_4.webp"]
     },
     {
         "category":"bakery",
         "subcategory":"cookie",
         "recommend":"false",
         "id": "06",
-        "name": "คุกกี้แมคคาเดเมีย",
-        "detail": "xxx3",
-        "price": "35",
+        "name": "Macadamia Nut Cookie",
+        "detail": "Recipe with macadamia nuts chopped, butter, egg, white chocolate chip, vanilla, flour and sugar.",
+        "price": "59",
         "img": ["macadamia_1.jpg", "macadamia_2.jpg","macadamia_3.jpg", "macadamia_4.jpg"]
     },
     {
@@ -74,8 +74,8 @@
         "subcategory":"cookie",
         "recommend":"false",
         "id": "07",
-        "name": "คุกกี้ข้าวโอ๊ต",
-        "detail": "xxx4",
+        "name": "Oatmeal Cookie",
+        "detail": "They're soft, chewy, and easily customizable — just raisins, nuts, or chocolate mix in the oats. ",
         "price": "35",
         "img": ["oat_cookies_1.jpg", "oat_cookies_2.jpg", "oat_cookies_3.jpg", "oat_cookies_4.jpg"]
     },
@@ -147,7 +147,7 @@
         "name": "โดนัทเคลือบน้ำตาล",
         "detail": "xxx3",
         "price": "20",
-        "img": ["doghnut_1.jpg", "doughnut_2.jpg"]
+        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
     },
     {
         "category":"bakery",
