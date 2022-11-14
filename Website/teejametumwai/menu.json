@@ -183,7 +183,7 @@
         "subcategory": "coffee",
         "recommend": "false",
         "id": "18",
-        "name": "ลาเต้",
+        "name": "Latte",
         "detail": "xxx3",
         "price": "60",
         "img": ["ice_lattee.jpg"]
@@ -193,7 +193,7 @@
         "subcategory": "coffee",
         "recommend": "false",
         "id": "19",
-        "name": "คาปูชิโน",
+        "name": "Cappuucino",
         "detail": "xxx4",
         "price": "60",
         "img": ["Ice_Cappucino.jpg"]
@@ -213,37 +213,37 @@
         "subcategory": "milk",
         "recommend": "false",
         "id": "21",
-        "name": "โกโก้",
+        "name": "Happy Chocolate Times",
         "detail": "xxx2",
         "price": "50",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["happy&hot_cocao_limited-premium_set.jpg"]
     },
     {
         "category": "cafe",
         "subcategory": "milk",
         "recommend": "false",
         "id": "22",
-        "name": "นมสด",
+        "name": "Vanilla Milk",
         "detail": "xxx3",
         "price": "50",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["vanilla_cinnamon_milk.jpg"]
     },
     {
         "category": "cafe",
         "subcategory": "milk",
         "recommend": "false",
         "id": "23",
-        "name": "นมชมพู",
+        "name": "Red Syrub Milk",
         "detail": "xxx4",
         "price": "50",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["thai_nom_yen.jpg"]
     },
     {
         "category": "cafe",
         "subcategory": "tea",
         "recommend": "false",
         "id": "24",
-        "name": "ชาไทย",
+        "name": "Cha Thai",
         "detail": "xxx1",
         "price": "50",
         "img": ["thai_tea.jpg"]
@@ -253,7 +253,7 @@
         "subcategory": "tea",
         "recommend": "false",
         "id": "25",
-        "name": "ชาสตรอว์เบอรี่",
+        "name": "Strawberry Tea",
         "detail": "xxx2",
         "price": "50",
         "img": ["strawberry_ice_tea.jpg"]
@@ -263,7 +263,7 @@
         "subcategory": "tea",
         "recommend": "false",
         "id": "26",
-        "name": "ชามะนาว",
+        "name": "Lemon Black Tea",
         "detail": "xxx3",
         "price": "50",
         "img": ["lemon_tea.jpg"]
@@ -273,7 +273,7 @@
         "subcategory": "tea",
         "recommend": "false",
         "id": "27",
-        "name": "ชาเขียวนม",
+        "name": "Milk Green Tea",
         "detail": "xxx4",
         "price": "50",
         "img": ["ice_milk_green_tea.jpg"]
@@ -293,17 +293,17 @@
         "subcategory": "soda",
         "recommend": "false",
         "id": "28",
-        "name": "บลูฮาวาย",
+        "name": "Nonalcoholic Hawaiian",
         "detail": "xxx1",
         "price": "60",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["Hawaiian.jpg"]
     },
     {
         "category": "cafe",
         "subcategory": "soda",
         "recommend": "false",
         "id": "29",
-        "name": "เลม่อนโซดา",
+        "name": "Lemon Soda",
         "detail": "xxx2",
         "price": "60",
         "img": ["lemon-soda.jpg"]
@@ -313,10 +313,10 @@
         "subcategory": "soda",
         "recommend": "false",
         "id": "30",
-        "name": "แมงโก้โซดา",
+        "name": "Peach & Mango Mojito",
         "detail": "xxx3",
         "price": "60",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["mojito.jpg"]
     }
 
 ]
