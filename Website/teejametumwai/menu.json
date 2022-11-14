@@ -174,10 +174,10 @@
         "subcategory":"coffee",
         "recommend":"false",
         "id": "17",
-        "name": "อเมริกาโน",
+        "name": "กาแฟยูซุ",
         "detail": "xxx2",
-        "price": "50",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "price": "80",
+        "img": ["yusucoffee.jpg"]
     },
     {
         "category":"cafe",
@@ -247,17 +247,17 @@
         "name": "ชาไทย",
         "detail": "xxx1",
         "price": "50",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["thai_tea.jpg"]
     },
     {
         "category":"cafe",
         "subcategory":"tea",
         "recommend":"false",
         "id": "25",
-        "name": "ชาดำ",
+        "name": "ชาสตรอว์เบอรี่",
         "detail": "xxx2",
         "price": "50",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["strawberry_ice_tea.jpg"]
     },
     {
         "category":"cafe",
@@ -294,10 +294,10 @@
         "subcategory":"soda",
         "recommend":"false",
         "id": "29",
-        "name": "อิตตาเลี่ยนโซดา",
+        "name": "เลม่อนโซดา",
         "detail": "xxx2",
         "price": "60",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["lemon-soda.jpg"]
     },
     {
         "category":"cafe",
