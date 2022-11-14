@@ -16,10 +16,11 @@
     <link rel="stylesheet" href="style_main_main.css">
     <link rel="stylesheet" href="style_cate.css">
     <link rel="stylesheet" href="body.css">
-    
+
     <!-- ////////////////// -->
     <script src="categoryPage.js"></script>
     <script src="cart.js"></script>
+    <script src="scripts.js"></script>
     <title>Document</title>
 
 </head>
@@ -39,28 +40,28 @@
                 <span class="fas fa-times"></span>
             </div>
             <li><a class="underline" href="main.html">Home</a></li>
-                <li>
-                    <label class="show" for="btn-1">Bakery <span class="fas fa-caret-down"></span></label>
-                    <a class="underline" data-category="bakery" onclick="categoryPage(this)">Bakery</a>
-                    <input type="checkbox" name="btn-1" id="btn-1">
-                    <ul>
-                        <li><a data-category="cake" onclick="categoryPage(this)">Cake</a></li>
-                        <li><a data-category="cookie" onclick="categoryPage(this)">Cookie</a></li>
-                        <li><a data-category="bread" onclick="categoryPage(this)">Bread</a></li>
-                        <li><a data-category="donut" onclick="categoryPage(this)">Donut</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <label class="show" for="btn-2">Cafe<span class="fas fa-caret-down"></span></label>
-                    <a class="underline" data-category="cafe" onclick="categoryPage(this)">Cafe</i></a>
-                    <input type="checkbox" name="btn-2" id="btn-2">
-                    <ul>
-                        <li><a data-category="coffee" onclick="categoryPage(this)">Coffee</a></li>
-                        <li><a data-category="milk" onclick="categoryPage(this)">Milk</a></li>
-                        <li><a data-category="tea" onclick="categoryPage(this)">Tea</a></li>
-                        <li><a data-category="soda" onclick="categoryPage(this)">Soda</a></li>
-                    </ul>
-                </li>
+            <li>
+                <label class="show" for="btn-1">Bakery <span class="fas fa-caret-down"></span></label>
+                <a class="underline" data-category="bakery" onclick="categoryPage(this)">Bakery</a>
+                <input type="checkbox" name="btn-1" id="btn-1">
+                <ul>
+                    <li><a data-category="cake" onclick="categoryPage(this)">Cake</a></li>
+                    <li><a data-category="cookie" onclick="categoryPage(this)">Cookie</a></li>
+                    <li><a data-category="bread" onclick="categoryPage(this)">Bread</a></li>
+                    <li><a data-category="donut" onclick="categoryPage(this)">Donut</a></li>
+                </ul>
+            </li>
+            <li>
+                <label class="show" for="btn-2">Cafe<span class="fas fa-caret-down"></span></label>
+                <a class="underline" data-category="cafe" onclick="categoryPage(this)">Cafe</i></a>
+                <input type="checkbox" name="btn-2" id="btn-2">
+                <ul>
+                    <li><a data-category="coffee" onclick="categoryPage(this)">Coffee</a></li>
+                    <li><a data-category="milk" onclick="categoryPage(this)">Milk</a></li>
+                    <li><a data-category="tea" onclick="categoryPage(this)">Tea</a></li>
+                    <li><a data-category="soda" onclick="categoryPage(this)">Soda</a></li>
+                </ul>
+            </li>
             <!-- <li><a href="#" class="underline">About</a></li> -->
         </div>
         <div class="search-icon2">
@@ -91,15 +92,15 @@
             </div>
         </div>
         <div class="whencartive"></div>
-    <div class="cartive">
-        <div class="cart_nav">
-            <div class="h4">SHOPPING CART</div>
-            <div class="cancel-icon2">
-                <span class="fas fa-times"></span>
+        <div class="cartive">
+            <div class="cart_nav">
+                <div class="h4">SHOPPING CART</div>
+                <div class="cancel-icon2">
+                    <span class="fas fa-times"></span>
+                </div>
             </div>
-        </div>
-        <table id="cartmenu">
-            <!-- <tr>
+            <table id="cartmenu">
+                <!-- <tr>
                 <td class="cartimg"><img src="img/p1.jpg" class="img_cart"></td>
                 <td class="cartname">ชื่ออะไรเอ่ย</td>
                 <td><button>+</button></td>
@@ -107,9 +108,9 @@
                 <td><button>-</button></td>
                 <td class="gap"></td>
             </tr> -->
-            
-        </table>
-    </div>
+
+            </table>
+        </div>
     </div>
     <div class="main">
         <div class="main_content_1 cate_content_1">
@@ -121,15 +122,285 @@
 
             </div>
         </div>
-        <div class="main_content_3">
-           
+
+        <div id="headcate"><div class="nameofcate">
+            <h1>Cake</h1>
+            <h5>see all</h5>
         </div>
+        
+        <div class="main_content_2">
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+        </div>
+        <div class="nameofcate">
+            <h1>Cake</h1>
+            <h5>see all</h5>
+        </div>
+        <div class="main_content_2">
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+        </div>
+        <div class="nameofcate">
+            <h1>Cake</h1>
+            <h5>see all</h5>
+        </div>
+        <div class="main_content_2">
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+        </div>
+        <div class="nameofcate">
+            <h1>Cake</h1>
+            <h5>see all</h5>
+        </div>
+        <div class="main_content_2">
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+            <div>
+                <img class="main_content_2_flex_img" src="img/p1.jpg" alt="cat-1" />
+                <div class="text_product">
+                    <h4>What is this SWEET?</h3>
+                        <h6>$160 USD</h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        <div id="vicecate"><div class="nameofcate">
+            <h1>Cake</h1>
+        </div><div class="main_content_3"></div></div>
+        
+        
     </div>
 
     <footer>
 
     </footer>
 </body>
-    <script src="scripts.js"></script>
+
 
 </html>
