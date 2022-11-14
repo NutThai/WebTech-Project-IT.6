@@ -4,8 +4,8 @@
         "subcategory":"cake",
         "recommend":"true",
         "id": "00",
-        "name": "เค้กเรดเวลเวต",
-        "detail": "คือเค้กที่มีสีแดงเข้ม แดงอ่อน หรือสีน้ำตาลแดง ส่วนผสมทั่วไปของเค้กเรดเวลเวต ได้แก่ นมเนย เนย โกโก้ และแป้งประกอบอาหาร สำหรับตัวเค้ก และบีตรูต หรือสีผสมอาหาร สำหรับสีของเค้ก",
+        "name": "Red velvet cake",
+        "detail": "traditionally a red, red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing. Traditional recipes do not use food coloring, with the red color due to non-Dutched, anthocyanin-rich cocoa. ",
         "price": "620",
         "img": ["red-velvet-1.jpg", "red-velvet-2.jpg", "red-velvet-3.jpg"]
     },
