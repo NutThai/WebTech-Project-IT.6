@@ -12,6 +12,7 @@ const whencart = document.querySelector(".whencartive");
 
 const prev = document.querySelector(".prev");
 const next = document.querySelector(".next");
+
 const content2 = document.querySelector(".main_content_2_flex");
 let count = 0;
 
