@@ -197,14 +197,14 @@
         "name": "คาปูชิโน",
         "detail": "xxx4",
         "price": "60",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["Ice_Cappucino.jpg"]
     },
     {
         "category":"cafe",
         "subcategory":"milk",
         "recommend":"false",
         "id": "20",
-        "name": "นมมรกต",
+        "name": "Sky and Sea",
         "detail": "xxx1",
         "price": "50",
         "img": ["sky_and_sea.jpg"]
@@ -277,7 +277,7 @@
         "name": "ชาเขียวนม",
         "detail": "xxx4",
         "price": "50",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["ice_milk_green_tea.jpg"]
     },
     {
         "category":"cafe",
