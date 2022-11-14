@@ -249,11 +249,11 @@ footer {
         gap: 1em;
     }
 
-    .main_content_2 {
+    /* .main_content_2 {
         position: absolute;
         z-index: -2;
         opacity: 0;
-    }
+    } */
 }
 
 .text_product {
