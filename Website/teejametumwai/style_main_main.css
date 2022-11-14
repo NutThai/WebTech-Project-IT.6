@@ -283,11 +283,3 @@ footer {
     
 }
 
-a{
-    color: var(--ci6);
-    text-decoration: none;
-}
-a:hover{
-    color: var(--ci6);
-}
-
