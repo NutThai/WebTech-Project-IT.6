@@ -261,3 +261,25 @@ footer {
     color: var(--ci1);
     padding: 0px 10px;
 }
+
+.rec{
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    background-color: var(--ci2);
+    color: var(--ci6);
+    padding: 10px 15px;
+    border-radius: 100px 10px 10px 100px;
+    font-weight: 500;
+    box-shadow:0px 3px 5px rgba(0, 0, 0, 0.534);
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.recommends{
+    position: relative;
+}
+.fa-star{
+    font-size: 15px;
+    
+}
+
