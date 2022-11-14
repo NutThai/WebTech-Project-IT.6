@@ -491,68 +491,6 @@ nav .exul li input {
 
 }
 
-.cartive {
-    position: fixed;
-    top: 0;
-    right: -500px;
-    width: 500px;
-    height: 100%;
-    background-color: var(--ci6);
-    z-index: 100;
-    transition: .5s;
-    
-
-}
-
-.cartive.active {
-    right: 0;
-    background-color: var(--ci6);
-}
-
-.cartive .cancel-icon2 {
-    width: 20px;
-    color: var(--ci6);
-    flex: 1;
-    text-align: right;
-
-}
-
-
-.whencartive {
-    z-index: -2;
-    background-color: var(--ci6);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    opacity: 0;
-    transition: .2s;
-    top: 0;
-    overflow: auto;
-}
-
-.whencartive.active {
-    z-index: 100;
-    background-color: var(--ci6);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    opacity: 0.5;
-    
-
-}
-
-.cart_nav {
-    background-color: var(--ci1);
-    width: 100%;
-    height: 60px;
-    display: flex;
-}
-
-.cart_nav div {
-    flex: 1;
-    padding: 15px;
-}
-
 table {
     width: 100%;
     
@@ -612,44 +550,4 @@ tr:hover{
 button {
     background-color: transparent;
     border: transparent;
-}
-
-nav .exul ul {
-    position: absolute;
-    top: 60px;
-    height: auto;
-    align-items: center;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: var(--ci2);
-    visibility: hidden;
-    transition: top .3s;
-    width: 150px;
-    list-style-type: none;
-    margin-left: -45px;
-}
-
-nav .exul li:hover>ul {
-    top: 70px;
-    opacity: 1;
-    visibility: visible;
-}
-
-nav .exul ul li {
-    position: relative;
-    margin: 0px;
-    width: 80px;
-    float: none;
-    display: list-item;
-    text-align: center;
-    padding: 0 40px;
-}
-
-nav .exul ul li a {
-    line-height: 50px;
-}
-
-nav .exul li .show,
-nav .exul li input {
-    display: none;
 }
