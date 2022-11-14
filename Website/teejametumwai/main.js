@@ -7,14 +7,18 @@ function loadJSON() {
             data.forEach(product => {
                 if(product.recommend == "true"){
                 recommend += `
-                        <div>
-                            <img class="recommend_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
-                            <div class="text_product">
+                <div>
+                <div class="recommends">
+                    <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                    <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                </div>
+                <div class="text_product">
                                 <h4>${product.name}</h3>
                                     <h6>${product.price} THB</h5>
                             </div>
 
-                        </div>
+             </div>
+                        
                 `;
                 }
                 main_content_3 += `
@@ -29,7 +33,7 @@ function loadJSON() {
         `;
                 
             });
-            document.getElementsByClassName("recommend")[0].innerHTML = recommend;
+            document.getElementsByClassName("main_content_2")[0].innerHTML = recommend;
             document.getElementsByClassName("main_content_3")[0].innerHTML = main_content_3;
 
         })
