@@ -34,7 +34,12 @@ function productPage(e) {
 function categoryPage(e) {
     cate = e.dataset.category
     localStorage.setItem("categoryPage", cate)
-    window.location.href = 'category.html'
+    if(cate == "bakery" || cate == "cafe"){
+        window.location.href = cate+'.html'
+    }
+    else{
+        window.location.href = 'category.html'
+    }
 }
 function addToCart(e) {
     id = Number(e.dataset.id)

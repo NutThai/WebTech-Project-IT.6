@@ -20,7 +20,6 @@
     <!-- ////////////////// -->
     <script src="categoryPage.js"></script>
     <script src="cart.js"></script>
-
     <title>Document</title>
 
 </head>
@@ -42,7 +41,7 @@
             <li><a class="underline" href="main.html">Home</a></li>
             <li>
                 <label class="show" for="btn-1">Bakery <span class="fas fa-caret-down"></span></label>
-                <a class="underline" data-category="bakery" onclick="window.location.href= 'bakery.html'">Bakery</a>
+                <a class="underline" data-category="bakery" onclick="categoryPage(this)">Bakery</a>
                 <input type="checkbox" name="btn-1" id="btn-1">
                 <ul>
                     <li><a data-category="cake" onclick="categoryPage(this)">Cake</a></li>
@@ -53,7 +52,7 @@
             </li>
             <li>
                 <label class="show" for="btn-2">Cafe<span class="fas fa-caret-down"></span></label>
-                <a class="underline" data-category="cafe" onclick="window.location.href= 'cafe.html'">Cafe</i></a>
+                <a class="underline" data-category="cafe" onclick="categoryPage(this)">Cafe</i></a>
                 <input type="checkbox" name="btn-2" id="btn-2">
                 <ul>
                     <li><a data-category="coffee" onclick="categoryPage(this)">Coffee</a></li>
@@ -125,32 +124,32 @@
 
         <div id="headcate">
             <div class="nameofcate">
-                <h1>Cake</h1>
+                <h1>Coffee</h1>
                 <h5>see all</h5>
             </div>
 
-            <div id="cake" class="main_content_2">
+            <div id="coffee" class="main_content_2">
     
             </div>
             <div class="nameofcate">
-                <h1>Cookie</h1>
+                <h1>Milk</h1>
                 <h5>see all</h5>
             </div>
-            <div id="cookie" class="main_content_2">
+            <div id="milk" class="main_content_2">
                 
             </div>
             <div class="nameofcate">
-                <h1>Bread</h1>
+                <h1>Tea</h1>
                 <h5>see all</h5>
             </div>
-            <div id="bread" class="main_content_2">
+            <div id="tea" class="main_content_2">
                
             </div>
             <div class="nameofcate">
-                <h1>Donut</h1>
+                <h1>Soda</h1>
                 <h5>see all</h5>
             </div>
-            <div id="donut" class="main_content_2">
+            <div id="soda" class="main_content_2">
                 
             </div>
         </div>
