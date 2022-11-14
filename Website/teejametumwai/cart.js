@@ -104,12 +104,14 @@ function showMe() {
                     <tr>
                         <td class="cartimg"><img src="img/${data[i].img[0]}" class="img_cart"></td>
                         <td class="cartname">${data[i].name}</td>
-                        <td>${data[i].price*incart[i].qty} THB</td>
+                        <td clasd="price">${data[i].price*incart[i].qty} THB</td>
                         <td class="gap"></td>
                         <td><button data-id="${data[i].id}" onclick="addToCart(this)">+</button></td>
                         <td id="counting_cart" class="count">${incart[i].qty}</td>
                         <td><button data-id="${data[i].id}" onclick="removeFromCart(this)">-</button></td>
-                        <td><button data-id="${data[i].id}" onclick="clearFromCart(this)">X</button></td>
+                        <td class="gap"></td>
+                        <td><button data-id="${data[i].id}" onclick="clearFromCart(this)" class="fas fa-times"></button></td>
+                        <td class="gap"></td>
                     </tr>
                     `;
                 }
