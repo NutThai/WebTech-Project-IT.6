@@ -2,18 +2,26 @@ function loadJSON() {
     fetch('menu.json')
         .then(response => response.json())
         .then(data => {
-            
-            let cake = '';
-            let cookie = '';
-            let bread= '';
-            let donut = '';
-            let coffee = '';
-            let milk = '';
-            let tea= '';
-            let soda = '';
+
+            let cakeflex = '';
+            let cakegrid = '';
+            let cookieflex = '';
+            let cookiegrid = '';
+            let breadflex = '';
+            let breadgrid = '';
+            let donutflex = '';
+            let donutgrid = '';
+            let coffeeflex = '';
+            let coffeegrid = '';
+            let milkflex = '';
+            let milkgrid = '';
+            let teaflex = '';
+            let teagrid = '';
+            let sodaflex = '';
+            let sodagrid = '';
             data.forEach(product => {
                 if (product.subcategory == "cake") {
-                    cake += `<div>
+                    cakeflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -21,9 +29,18 @@ function loadJSON() {
                                 </div>
     
                             </div>`
+                            cakegrid += `<div>
+                            <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                            <div class="text_product">
+                                <h4>${product.name}</h3>
+                                    <h6>${product.price} THB</h5>
+                            </div>
+
+                        </div>`
+
                 }
                 if (product.subcategory == "cookie") {
-                    cookie += `<div>
+                    cookieflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -31,9 +48,17 @@ function loadJSON() {
                                 </div>
     
                             </div>`
+                    cookiegrid += `<div>
+                            <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                            <div class="text_product">
+                                <h4>${product.name}</h3>
+                                    <h6>${product.price} THB</h5>
+                            </div>
+
+                        </div>`
                 }
                 if (product.subcategory == "bread") {
-                    bread += `<div>
+                    breadflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -41,9 +66,17 @@ function loadJSON() {
                                 </div>
     
                             </div>`
+                    breadgrid += `<div>
+                            <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                            <div class="text_product">
+                                <h4>${product.name}</h3>
+                                    <h6>${product.price} THB</h5>
+                            </div>
+
+                        </div>`
                 }
                 if (product.subcategory == "donut") {
-                    donut += `<div>
+                    donutflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -51,9 +84,17 @@ function loadJSON() {
                                 </div>
     
                             </div>`
+                    donutgrid += `<div>
+                            <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                            <div class="text_product">
+                                <h4>${product.name}</h3>
+                                    <h6>${product.price} THB</h5>
+                            </div>
+
+                        </div>`
                 }
                 if (product.subcategory == "coffee") {
-                    coffee += `<div>
+                    coffeeflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -61,9 +102,17 @@ function loadJSON() {
                                 </div>
     
                             </div>`
+                            coffeegrid += `<div>
+                            <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                            <div class="text_product">
+                                <h4>${product.name}</h3>
+                                    <h6>${product.price} THB</h5>
+                            </div>
+
+                        </div>`
                 }
                 if (product.subcategory == "milk") {
-                    milk += `<div>
+                    milkflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -71,9 +120,17 @@ function loadJSON() {
                                 </div>
     
                             </div>`
+                            milkgrid += `<div>
+                            <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                            <div class="text_product">
+                                <h4>${product.name}</h3>
+                                    <h6>${product.price} THB</h5>
+                            </div>
+
+                        </div>`
                 }
                 if (product.subcategory == "tea") {
-                    tea += `<div>
+                    teaflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -81,9 +138,17 @@ function loadJSON() {
                                 </div>
     
                             </div>`
+                    teagrid += `<div>
+                            <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                            <div class="text_product">
+                                <h4>${product.name}</h3>
+                                    <h6>${product.price} THB</h5>
+                            </div>
+
+                        </div>`
                 }
                 if (product.subcategory == "soda") {
-                    soda += `<div>
+                    sodaflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -91,32 +156,40 @@ function loadJSON() {
                                 </div>
     
                             </div>`
+                    sodagrid += `<div>
+                            <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                            <div class="text_product">
+                                <h4>${product.name}</h3>
+                                    <h6>${product.price} THB</h5>
+                            </div>
+
+                        </div>`
                 }
             });
-            if(localStorage.categoryPage == "cafe" || localStorage.categoryPage == "bakery"){
-                if(localStorage.categoryPage == "bakery"){
-                    document.getElementById("cake").innerHTML = cake
-                    document.getElementById("cookie").innerHTML = cookie
-                    document.getElementById("bread").innerHTML = bread
-                    document.getElementById("donut").innerHTML = donut
+            if (localStorage.categoryPage == "cafe" || localStorage.categoryPage == "bakery") {
+                if (localStorage.categoryPage == "bakery") {
+                    document.getElementById("cake").innerHTML = cakeflex
+                    document.getElementById("cookie").innerHTML = cookieflex
+                    document.getElementById("bread").innerHTML = breadflex
+                    document.getElementById("donut").innerHTML = donutflex
                 }
-                else{
-                    document.getElementById("coffee").innerHTML = coffee
-                    document.getElementById("milk").innerHTML = milk
-                    document.getElementById("tea").innerHTML = tea
-                    document.getElementById("soda").innerHTML = soda
+                else {
+                    document.getElementById("coffee").innerHTML = coffeeflex
+                    document.getElementById("milk").innerHTML = milkflex
+                    document.getElementById("tea").innerHTML = teaflex
+                    document.getElementById("soda").innerHTML = sodaflex
                 }
             }
             // text += `
-                //         <div>
-                //             <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
-                //             <div class="text_product">
-                //                 <h4>${product.name}</h3>
-                //                     <h6>${product.price} THB</h5>
-                //             </div>
+            //         <div>
+            //             <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+            //             <div class="text_product">
+            //                 <h4>${product.name}</h3>
+            //                     <h6>${product.price} THB</h5>
+            //             </div>
 
-                //         </div>
-                // `;
+            //         </div>
+            // `;
             //     document.getElementsByClassName("recommend")[0].innerHTML = recommend;
             //     document.getElementsByClassName("main_content_3")[0].innerHTML = main_content_3;
             // if (localStorage.categoryPage == "bakery" || localStorage.categoryPage == "cafe") {
@@ -129,7 +202,7 @@ function loadJSON() {
             //                         <h4>${product.name}</h3>
             //                             <h6>${product.price} THB</h5>
             //                     </div>
-    
+
             //                 </div>
             //         `;
             //         }
@@ -146,45 +219,45 @@ function loadJSON() {
             //                         <h4>${product.name}</h3>
             //                             <h6>${product.price} THB</h5>
             //                     </div>
-    
+
             //                 </div>
             //         `;
             //         }
 
             //     });
             // }
-            else{
-                if(localStorage.categoryPage == "cake"){
+            else {
+                if (localStorage.categoryPage == "cake") {
                     document.getElementsByClassName("nameofcate")[0].innerHTML = "<h1>Cake</h1>"
-                    document.getElementsByClassName("main_content_3")[0].innerHTML = cake
+                    document.getElementsByClassName("main_content_3")[0].innerHTML = cakegrid
                 }
-                if(localStorage.categoryPage == "cookie"){
+                if (localStorage.categoryPage == "cookie") {
                     document.getElementsByClassName("nameofcate")[0].innerHTML = "<h1>Cookie</h1>"
-                    document.getElementsByClassName("main_content_3")[0].innerHTML = cookie
+                    document.getElementsByClassName("main_content_3")[0].innerHTML = cookiegrid
                 }
-                if(localStorage.categoryPage == "bread"){
+                if (localStorage.categoryPage == "bread") {
                     document.getElementsByClassName("nameofcate")[0].innerHTML = "<h1>Bread</h1>"
-                    document.getElementsByClassName("main_content_3")[0].innerHTML = bread
+                    document.getElementsByClassName("main_content_3")[0].innerHTML = breadgrid
                 }
-                if(localStorage.categoryPage == "donut"){
+                if (localStorage.categoryPage == "donut") {
                     document.getElementsByClassName("nameofcate")[0].innerHTML = "<h1>Donut</h1>"
-                    document.getElementsByClassName("main_content_3")[0].innerHTML = donut
+                    document.getElementsByClassName("main_content_3")[0].innerHTML = donutgrid
                 }
-                if(localStorage.categoryPage == "coffee"){
+                if (localStorage.categoryPage == "coffee") {
                     document.getElementsByClassName("nameofcate")[0].innerHTML = "<h1>Coffee</h1>"
-                    document.getElementsByClassName("main_content_3")[0].innerHTML = coffee
+                    document.getElementsByClassName("main_content_3")[0].innerHTML = coffeegrid
                 }
-                if(localStorage.categoryPage == "milk"){
+                if (localStorage.categoryPage == "milk") {
                     document.getElementsByClassName("nameofcate")[0].innerHTML = "<h1>Milk</h1>"
-                    document.getElementsByClassName("main_content_3")[0].innerHTML = milk
+                    document.getElementsByClassName("main_content_3")[0].innerHTML = milkgrid
                 }
-                if(localStorage.categoryPage == "tea"){
+                if (localStorage.categoryPage == "tea") {
                     document.getElementsByClassName("nameofcate")[0].innerHTML = "<h1>Tea</h1>"
-                    document.getElementsByClassName("main_content_3")[0].innerHTML = tea
+                    document.getElementsByClassName("main_content_3")[0].innerHTML = teagrid
                 }
-                if(localStorage.categoryPage == "soda"){
+                if (localStorage.categoryPage == "soda") {
                     document.getElementsByClassName("nameofcate")[0].innerHTML = "<h1>Soda</h1>"
-                    document.getElementsByClassName("main_content_3")[0].innerHTML = soda
+                    document.getElementsByClassName("main_content_3")[0].innerHTML = sodagrid
                 }
             }
         })

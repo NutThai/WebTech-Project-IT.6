@@ -57,7 +57,7 @@
         "name": "Peanut Butter Cookie",
         "detail": "distinguished for having peanut butter as a principal ingredient, sugar, eggs, flour and vanilla.",
         "price": "59",
-        "img": ["peanut-cookies_1.webp", "peanut-cookies_2.webp", "peanut-cookies_3.jpg", "peanut-cookies_4.webp"]
+        "img": ["peanut_cookies_1.jpg", "peanut_cookies_2.jpg", "peanut_cookies_3.jpg", "peanut_cookies_4.jpg"]
     },
     {
         "category":"bakery",
@@ -167,17 +167,17 @@
         "name": "เอสเพรสโซ",
         "detail": "xxx1",
         "price": "50",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["ice_espresso.jpg"]
     },
     {
         "category":"cafe",
         "subcategory":"coffee",
         "recommend":"false",
         "id": "17",
-        "name": "อเมริกาโน",
+        "name": "กาแฟยูซุ",
         "detail": "xxx2",
-        "price": "50",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "price": "80",
+        "img": ["yusucoffee.jpg"]
     },
     {
         "category":"cafe",
@@ -187,7 +187,7 @@
         "name": "ลาเต้",
         "detail": "xxx3",
         "price": "60",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["ice_lattee.jpg"]
     },
     {
         "category":"cafe",
@@ -247,17 +247,17 @@
         "name": "ชาไทย",
         "detail": "xxx1",
         "price": "50",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["thai_tea.jpg"]
     },
     {
         "category":"cafe",
         "subcategory":"tea",
         "recommend":"false",
         "id": "25",
-        "name": "ชาดำ",
+        "name": "ชาสตรอว์เบอรี่",
         "detail": "xxx2",
         "price": "50",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["strawberry_ice_tea.jpg"]
     },
     {
         "category":"cafe",
@@ -267,7 +267,7 @@
         "name": "ชามะนาว",
         "detail": "xxx3",
         "price": "50",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["lemon_tea.jpg"]
     },
     {
         "category":"cafe",
@@ -294,10 +294,10 @@
         "subcategory":"soda",
         "recommend":"false",
         "id": "29",
-        "name": "อิตตาเลี่ยนโซดา",
+        "name": "เลม่อนโซดา",
         "detail": "xxx2",
         "price": "60",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["lemon-soda.jpg"]
     },
     {
         "category":"cafe",
