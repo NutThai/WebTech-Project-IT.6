@@ -26,7 +26,7 @@ cancelBtn.onclick = () => {
   item.classList.remove("active");
   menuBtn.classList.remove("hide");
   searchBtn.classList.remove("hide");
-  cancelBtn.classList.remove("show");
+
   form.classList.remove("active");
   cartBtn.classList.remove("hide");
   useBtn.classList.remove("hide");

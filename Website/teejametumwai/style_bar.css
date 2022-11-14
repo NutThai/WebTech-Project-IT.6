@@ -65,7 +65,6 @@ nav .exul li a:hover{
     position: relative;
     overflow: hidden;
 }
-
 .underline:after {
     content: "";
     position: absolute;
@@ -258,10 +257,17 @@ nav .exul li input {
         position: absolute;
         z-index: -2;
     }
+    .exul.active{
+        background-color: transparent;
+    }
 
 }
 
 @media (max-width: 820px) {
+
+    .exul.active{
+        background-color: var(--ci1);
+    }
     nav .search-icon2 {
         display: none;
     }
@@ -328,12 +334,13 @@ nav .exul li input {
         background-color: var(--ci1);
         display: inline-block;
         padding: 10px 50px 0 50px;
-        text-align: center;
+        
         transition: left 0.8s ease;
     }
 
     nav .exul.active {
         left: 0%;
+       
 
     }
 
@@ -425,7 +432,7 @@ nav .exul li input {
 
     nav .exul li .show {
         display: block;
-        color: black;
+        color: var(--ci6);
         font-size: 20px;
         font-weight: 800;
         padding: 0;
@@ -434,7 +441,7 @@ nav .exul li input {
     }
 
     nav .exul li .show:hover {
-        color: rgb(120, 71, 11);
+        color: var(--ci3);
     }
 
     nav .exul li .show+a,
@@ -448,13 +455,13 @@ nav .exul li input {
 
     nav .exul ul li {
         line-height: 40px;
-        border-bottom: none;
+       
     }
 
     nav .exul li label span {
         float: right;
         margin-top: 10px;
-        padding: 0 30px;
+        
     }
 
     nav .exul li a {
