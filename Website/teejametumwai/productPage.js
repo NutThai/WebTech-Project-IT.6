@@ -28,10 +28,10 @@ function loadJSON() {
                     </ul>
                     </div>
                     <button data-id="${data[localStorage.productPage].id}" type="button" onClick="addToCart(this)" class="addtocart btn">Add To Cart</button>
-                    <button type="button" onClick="calculateCart()" class="addtocart btn">Check</button>
+                    
                 </div>
             `;
-
+            // <button type="button" onClick="calculateCart()" class="addtocart btn">Check</button>
             document.getElementsByClassName("main_detail_1")[0].innerHTML = productPage;
 
         })
