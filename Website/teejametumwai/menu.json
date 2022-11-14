@@ -57,7 +57,7 @@
         "name": "คุกกี้พีนัทบัตเตอร์",
         "detail": "xxx2",
         "price": "35",
-        "img": ["peanut-cookies_1.webp", "peanut-cookies_2.webp", "peanut-cookies_3.jpg", "peanut-cookies_4.webp"]
+        "img": ["peanut_cookies_1.jpg", "peanut_cookies_2.jpg", "peanut_cookies_3.jpg", "peanut_cookies_4.jpg"]
     },
     {
         "category":"bakery",
