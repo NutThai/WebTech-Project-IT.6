@@ -52,12 +52,14 @@ let slideIndex = 0;
 showSlides();
 
 next.onclick = () => {
-  count += 320;
-  content2.style.right = `${count}px`;
-  console.log(1);
+  if(count < 320*3){
+    count += 320;
+    content2.style.right = `${count}px`;
+    console.log(1);
+  }
 }
 prev.onclick = () => {
-  if (count - 320 >= 0) {
+  if (count >= 320) {
     count -= 320;
     content2.style.right = `${count}px`;
     console.log(1);
