@@ -124,7 +124,7 @@
         "subcategory":"donut",
         "recommend":"false",
         "id": "12",
-        "name": "โดนัทใส่แยม",
+        "name": "โดนัทสอดไส้แยม",
         "detail": "xxx1",
         "price": "20",
         "img": ["jamdoughnut_1.jpg", "jamdoughnut_2.jpg","jamdoughnut_3.jpg", "jamdoughnut_4.jpg"]
@@ -154,7 +154,7 @@
         "subcategory":"donut",
         "recommend":"false",
         "id": "15",
-        "name": "โดนัทสตอเบอรี่",
+        "name": "Strawberry Donut",
         "detail": "xxx4",
         "price": "20",
         "img": ["strawberry_doughnut_1.jpg", "strawberry_doughnut_2.jpg","strawberry_doughnut_3.jpg"]
@@ -207,7 +207,7 @@
         "name": "Sky and Sea",
         "detail": "xxx1",
         "price": "50",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["sky_and_sea.jpg"]
     },
     {
         "category":"cafe",
