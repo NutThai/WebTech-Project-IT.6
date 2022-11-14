@@ -18,9 +18,22 @@ function loadJSON() {
                             </div>
 
              </div>
-                        
                 `;
+                main_content_3 += `
+                <div>
+                <div class="recommends">
+                    <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                    <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                </div>
+                <div class="text_product">
+                                <h4>${product.name}</h3>
+                                    <h6>${product.price} THB</h5>
+                            </div>
+
+             </div>
+        `;
                 }
+               else{
                 main_content_3 += `
                 <div>
                     <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
@@ -31,6 +44,7 @@ function loadJSON() {
                     </div>
                 </div>
         `;
+               }
                 
             });
             document.getElementsByClassName("main_content_2")[0].innerHTML = recommend;

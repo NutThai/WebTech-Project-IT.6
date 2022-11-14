@@ -21,7 +21,32 @@ function loadJSON() {
             let sodagrid = '';
             data.forEach(product => {
                 if (product.subcategory == "cake") {
-                    cakeflex += `<div>
+                    if(product.recommend == "true"){
+                        
+                        cakeflex += `<div>
+                                <div class="recommends">
+                                    <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                                    <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                                </div>
+                                <div class="text_product">
+                                                <h4>${product.name}</h3>
+                                                    <h6>${product.price} THB</h5>
+                                            </div>
+                                </div>`
+                    cakegrid += `<div>
+                    <div class="recommends">
+                        <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                        <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                    </div>
+                    <div class="text_product">
+                                    <h4>${product.name}</h3>
+                                        <h6>${product.price} THB</h5>
+                                </div>
+    
+                 </div>`
+                    }
+                    else{
+                        cakeflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -29,7 +54,7 @@ function loadJSON() {
                                 </div>
     
                             </div>`
-                            cakegrid += `<div>
+                    cakegrid += `<div>
                             <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                             <div class="text_product">
                                 <h4>${product.name}</h3>
@@ -37,10 +62,35 @@ function loadJSON() {
                             </div>
 
                         </div>`
-
+                    }
                 }
                 if (product.subcategory == "cookie") {
-                    cookieflex += `<div>
+                    if(product.recommend == "true"){
+                        
+                        cookieflex += `<div>
+                                <div class="recommends">
+                                    <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                                    <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                                </div>
+                                <div class="text_product">
+                                                <h4>${product.name}</h3>
+                                                    <h6>${product.price} THB</h5>
+                                            </div>
+                                </div>`
+                    cookiegrid += `<div>
+                    <div class="recommends">
+                        <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                        <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                    </div>
+                    <div class="text_product">
+                                    <h4>${product.name}</h3>
+                                        <h6>${product.price} THB</h5>
+                                </div>
+    
+                 </div>`
+                    }
+                    else{
+                        cookieflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -56,9 +106,35 @@ function loadJSON() {
                             </div>
 
                         </div>`
+                    }
                 }
                 if (product.subcategory == "bread") {
-                    breadflex += `<div>
+                    if(product.recommend == "true"){
+                        
+                        breadflex += `<div>
+                                <div class="recommends">
+                                    <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                                    <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                                </div>
+                                <div class="text_product">
+                                                <h4>${product.name}</h3>
+                                                    <h6>${product.price} THB</h5>
+                                            </div>
+                                </div>`
+                    breadgrid += `<div>
+                    <div class="recommends">
+                        <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                        <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                    </div>
+                    <div class="text_product">
+                                    <h4>${product.name}</h3>
+                                        <h6>${product.price} THB</h5>
+                                </div>
+    
+                 </div>`
+                    }
+                    else{
+                        breadflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -74,9 +150,35 @@ function loadJSON() {
                             </div>
 
                         </div>`
+                    }
                 }
                 if (product.subcategory == "donut") {
-                    donutflex += `<div>
+                    if(product.recommend == "true"){
+                        
+                        donutflex += `<div>
+                                <div class="recommends">
+                                    <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                                    <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                                </div>
+                                <div class="text_product">
+                                                <h4>${product.name}</h3>
+                                                    <h6>${product.price} THB</h5>
+                                            </div>
+                                </div>`
+                    donutgrid += `<div>
+                    <div class="recommends">
+                        <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                        <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                    </div>
+                    <div class="text_product">
+                                    <h4>${product.name}</h3>
+                                        <h6>${product.price} THB</h5>
+                                </div>
+    
+                 </div>`
+                    }
+                    else{
+                        donutflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -92,9 +194,35 @@ function loadJSON() {
                             </div>
 
                         </div>`
+                    }
                 }
                 if (product.subcategory == "coffee") {
-                    coffeeflex += `<div>
+                    if(product.recommend == "true"){
+                        
+                        coffeeflex += `<div>
+                                <div class="recommends">
+                                    <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                                    <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                                </div>
+                                <div class="text_product">
+                                                <h4>${product.name}</h3>
+                                                    <h6>${product.price} THB</h5>
+                                            </div>
+                                </div>`
+                    coffeegrid += `<div>
+                    <div class="recommends">
+                        <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                        <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                    </div>
+                    <div class="text_product">
+                                    <h4>${product.name}</h3>
+                                        <h6>${product.price} THB</h5>
+                                </div>
+    
+                 </div>`
+                    }
+                    else{
+                        coffeeflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -102,7 +230,7 @@ function loadJSON() {
                                 </div>
     
                             </div>`
-                            coffeegrid += `<div>
+                    coffeegrid += `<div>
                             <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                             <div class="text_product">
                                 <h4>${product.name}</h3>
@@ -110,9 +238,35 @@ function loadJSON() {
                             </div>
 
                         </div>`
+                    }
                 }
                 if (product.subcategory == "milk") {
-                    milkflex += `<div>
+                    if(product.recommend == "true"){
+                        
+                        milkflex += `<div>
+                                <div class="recommends">
+                                    <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                                    <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                                </div>
+                                <div class="text_product">
+                                                <h4>${product.name}</h3>
+                                                    <h6>${product.price} THB</h5>
+                                            </div>
+                                </div>`
+                    milkgrid += `<div>
+                    <div class="recommends">
+                        <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                        <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                    </div>
+                    <div class="text_product">
+                                    <h4>${product.name}</h3>
+                                        <h6>${product.price} THB</h5>
+                                </div>
+    
+                 </div>`
+                    }
+                    else{
+                        milkflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -120,7 +274,7 @@ function loadJSON() {
                                 </div>
     
                             </div>`
-                            milkgrid += `<div>
+                    milkgrid += `<div>
                             <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                             <div class="text_product">
                                 <h4>${product.name}</h3>
@@ -128,9 +282,35 @@ function loadJSON() {
                             </div>
 
                         </div>`
+                    }
                 }
                 if (product.subcategory == "tea") {
-                    teaflex += `<div>
+                    if(product.recommend == "true"){
+                        
+                        teaflex += `<div>
+                                <div class="recommends">
+                                    <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                                    <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                                </div>
+                                <div class="text_product">
+                                                <h4>${product.name}</h3>
+                                                    <h6>${product.price} THB</h5>
+                                            </div>
+                                </div>`
+                    teagrid += `<div>
+                    <div class="recommends">
+                        <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                        <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                    </div>
+                    <div class="text_product">
+                                    <h4>${product.name}</h3>
+                                        <h6>${product.price} THB</h5>
+                                </div>
+    
+                 </div>`
+                    }
+                    else{
+                        teaflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -146,9 +326,35 @@ function loadJSON() {
                             </div>
 
                         </div>`
+                    }
                 }
                 if (product.subcategory == "soda") {
-                    sodaflex += `<div>
+                    if(product.recommend == "true"){
+                        
+                        sodaflex += `<div>
+                                <div class="recommends">
+                                    <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                                    <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                                </div>
+                                <div class="text_product">
+                                                <h4>${product.name}</h3>
+                                                    <h6>${product.price} THB</h5>
+                                            </div>
+                                </div>`
+                    sodagrid += `<div>
+                    <div class="recommends">
+                        <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
+                        <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                    </div>
+                    <div class="text_product">
+                                    <h4>${product.name}</h3>
+                                        <h6>${product.price} THB</h5>
+                                </div>
+    
+                 </div>`
+                    }
+                    else{
+                        sodaflex += `<div>
                                 <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                                 <div class="text_product">
                                     <h4>${product.name}</h3>
@@ -164,6 +370,7 @@ function loadJSON() {
                             </div>
 
                         </div>`
+                    }
                 }
             });
             if (localStorage.categoryPage == "cafe" || localStorage.categoryPage == "bakery") {

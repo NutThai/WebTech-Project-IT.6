@@ -16,7 +16,7 @@ function loadJSON() {
                     </div>
                 </div>
                 <div class="main_right">
-                    <h4 class="category">${data[localStorage.productPage].category}</h4>
+                    <h4 class="category">${data[localStorage.productPage].subcategory[0].toUpperCase()+data[localStorage.productPage].subcategory.slice(1)}</h4>
                     <h2 class="main_right_name">${data[localStorage.productPage].name}</h2>
                     <h3>${data[localStorage.productPage].price} THB</h3>
                     <div class="main_right_detail ">${data[localStorage.productPage].detail}
