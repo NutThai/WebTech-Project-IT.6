@@ -240,7 +240,10 @@ nav .exul ul li a {
     line-height: 50px;
 }
 
-nav .exul li .show,
+nav .exul li .show{
+    display: none;
+}
+
 nav .exul li input {
     display: none;
 }
