@@ -9,15 +9,15 @@ if(localStorage.Username == null){
 
 }
 
-
-
-
-
-
 function check(){
     if(localStorage.Username == null){
         window.location.href = 'login.php'
     }else{
         window.location.href = 'check.html'
     }
+}
+
+function addAddress(){
+    document.getElementsByClassName("check_address")[0].innerHTML = `
+    ${localStorage.Username} ${localStorage.Address}`;
 }
