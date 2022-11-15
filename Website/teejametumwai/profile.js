@@ -14,7 +14,7 @@ if(localStorage.Username == null){
 
 
 function log(){
-    localStorage.clear
+    localStorage.clear()
     window.location.href = 'login.php'
 }
 

@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="body.css">
     <title>Document</title>
 </head>
-
+<script>
+    localStorage.clear()
+</script>
 <body>
     <style>
         body{
