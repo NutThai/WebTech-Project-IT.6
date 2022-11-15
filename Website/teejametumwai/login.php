@@ -106,22 +106,26 @@
             if (isset($_POST['SUBMIT'])) {
                 $Username = htmlentities($_POST['Username']);
                 $Password = htmlentities($_POST['Password']);
-                $sql = "SELECT * from USER WHERE USERNAME = '$Username' AND PASSWORD = '$Password'";
+                $sql = "SELECT * from USER WHERE USERNAME = '$Username' AND PASSWORD = '$Password'" ;
                 $ret = $db->query($sql);
-
+                $ad = $db->query("SELECT * from USER ");
                 while ($row = $ret->fetchArray(SQLITE3_ASSOC)) {
                     echo '<script type="text/javascript">';
-                    echo    "localStorage.setItem('Username', '" . $Username . "')";
+                    echo "localStorage.setItem('Username', '" . $Username . "')";
                     echo '</script>';
-                    echo '<script type="text/javascript">';
-                    echo    'window.location="main.html"';
-                    echo '</script>';
+                    $sql = "SELECT * from USER WHERE USERNAME = '$Username'";
+                    $ret = $db->query($sql);
+                    while($row = $ret->fetchArray(SQLITE3_ASSOC) ) {
+                        echo '<script type="text/javascript">';
+                        echo  "localStorage.setItem('Address', '" . $row['ADDRESS'] . "')";
+                        echo 'window.location="main.html"';
+                        echo '</script>';
+                        }
                 }
-                echo '<script type="text/javascript">';
-                echo 'alert("wrong Username or Password.")';
-                echo '</script>';
-            }
 
+                echo '<script type="text/javascript">alert("wrong Username or Password.")</script>';
+            }
+                
 
             $db->close();
 
