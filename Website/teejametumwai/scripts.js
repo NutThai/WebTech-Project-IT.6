@@ -9,6 +9,7 @@ const menu = document.querySelector(".menu-icon");
 const form = document.querySelector("form");
 const cart = document.querySelector(".cartive");
 const whencart = document.querySelector(".whencartive");
+const whenuser = document.querySelector(".whenuser");
 
 const prev = document.querySelector(".prev");
 const next = document.querySelector(".next");
@@ -48,6 +49,18 @@ cartBtn.onclick = () => {
 cancelBtn2.onclick = () => {
   cart.classList.remove("active");
   whencart.classList.remove("active");
+}
+let countuser = -1;
+useBtn.onclick = () => {
+  countuser *= -1
+  if(countuser == 1){
+    whenuser.classList.remove("hide");
+  }
+  else{
+    whenuser.classList.add("hide");
+  }
+  
+  
 }
 let slideIndex = 0;
 showSlides();
