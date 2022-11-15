@@ -98,14 +98,15 @@ function clearFromCart(e) {
     showMe()
 }
 function showMe() {
-    text = ""
+    let cart = ""
+    let checkout = ""
     i = 0
     fetch('menu.json')
         .then(response => response.json())
         .then(data => {
             while (incart.length > i) {
                 if (incart[i] != null && incart[i].qty != 0) {
-                    text += `
+                    cart += `
                     <tr>
                         <td class="cartimg"><img src="img/${data[i].img[0]}" class="img_cart"></td>
                         <td class="cartname">${data[i].name}</td>
@@ -119,13 +120,29 @@ function showMe() {
                         <td class="gap"></td>
                     </tr>
                     `;
+                    checkout += `
+                    <tr>
+                        <td class="cartimg"><img src="img/${data[i].img[0]}" class="img_cart"></td>
+                        <td class="cartname">${data[i].name}</td>
+                        <td clasd="price">${data[i].price*incart[i].qty} THB</td>
+                        <td class="gap"></td>
+
+                        <td id="counting_cart" class="count">${incart[i].qty}</td>
+                        
+                    </tr>
+                    `;
                 }
                 i++
             }
             // <button data-id="${product.id}" onclick="addToCart(this)">+</button>
             // <button data-id="${product.id}" onclick="removeFromCart(this)">-</button>
-            document.getElementById("cartmenu").innerHTML = text
-
+            document.getElementById("cartmenu").innerHTML = cart
+            try{
+                document.getElementById("checkout").innerHTML = checkout
+            }
+            catch(e){
+                
+            }
         })
         .catch(error => {
             alert(`User live server or local server`);
