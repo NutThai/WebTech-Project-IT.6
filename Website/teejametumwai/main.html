@@ -18,7 +18,16 @@
     <!-- ////////////////// -->
     <script src="main.js"></script>
     <script src="cart.js"></script>
-    <title>Document</title>
+    
+    <!-- อย่าลืมลม -->
+
+    <script>
+        localStorage.setItem("Username","Nut")
+        localStorage.setItem("Address","Home")
+    </script>
+
+
+    <title>STUN Taste of Godbless!</title>
 </head>
 
 <body>
@@ -83,11 +92,17 @@
             </div>
             
             <hr>
-            <button class="nowwhat">log out</button><br>
-            <button class="nowwhat">sign in</button>
+            <div id="userstatus">
+                <!-- <button class="nowwhat">Log in</button>
+                <button class="nowwhat">Log out</button> -->
+                
+                
+            
+            </div>
+            <br>
         </div>
 
-
+        
 
     </nav>
     <div class="whencartive"></div>
@@ -111,7 +126,7 @@
 
             </table>
         </div>
-        <button type="button" class="addtocarts" onclick="window.location.href = 'check.html'">Next Step</botton>
+        <button type="button" class="addtocarts" onclick="check()">Next Step</botton>
 
     </div>
     <div class="main">
@@ -427,5 +442,5 @@
     </footer>
 </body>
 <script src="scripts.js"></script>
-
+<script src="profile.js"></script>
 </html>
