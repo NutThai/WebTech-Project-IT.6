@@ -566,3 +566,18 @@ a{
 a:hover{
     color: var(--ci6);
 }
+
+.addtocarts{
+    width: 450px;
+    height: 40px;
+    background-color: var(--ci3);
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--ci2);
+    margin-top: 20px;
+    position: fixed;
+    bottom: 5px;
+    margin: 25px;
+
+}
