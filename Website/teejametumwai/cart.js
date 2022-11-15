@@ -108,7 +108,7 @@ function showMe() {
                         <td clasd="price">${data[i].price*incart[i].qty} THB</td>
                         <td class="gap"></td>
 
-                        <td id="counting_cart" class="count">${incart[i].qty}</td>
+                        <td id="counting_cart" class="count">x ${incart[i].qty}</td>
                         
                     </tr>
                     `;
