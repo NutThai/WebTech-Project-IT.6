@@ -4,27 +4,7 @@ if (localStorage.allcart == null) {
 } else {
     var incart = JSON.parse(localStorage.allcart)
 }
-function calculateCart(){
-    let total = 0
-    fetch('menu.json')
-        .then(response => response.json())
-        .then(data => {
-            data.forEach(product => {
-                if(incart[Number(product.id)] != null && incart[Number(product.id)].qty != 0){
 
-                    total += Number(product.price)*Number(incart[Number(product.id)].qty);
-                }
-                
-            });
-            alert(total)
-        })
-        .catch(error => {
-            alert(`User live server or local server`);
-            //URL scheme must be "http" or "https" for CORS request. You need to be serving your index.html locally or have your site hosted on a live server somewhere for the Fetch API to work properly.
-        })
-
-       
-}
 
 function productPage(e) {
     id = Number(e.dataset.id)
@@ -98,8 +78,9 @@ function clearFromCart(e) {
     showMe()
 }
 function showMe() {
-    let cart = ""
-    let checkout = ""
+    let cart = "";
+    let checkout = "";
+    let total = 0;
     i = 0
     fetch('menu.json')
         .then(response => response.json())
@@ -131,13 +112,20 @@ function showMe() {
                         
                     </tr>
                     `;
+                    
+                    total += Number(data[i].price)*Number(incart[i].qty);
+                    
+                
                 }
                 i++
             }
+
             // <button data-id="${product.id}" onclick="addToCart(this)">+</button>
             // <button data-id="${product.id}" onclick="removeFromCart(this)">-</button>
             document.getElementById("cartmenu").innerHTML = cart
             try{
+
+                checkout += `<td id="counting_cart" class="totalprice">${total} THB</td>`
                 document.getElementById("checkout").innerHTML = checkout
             }
             catch(e){
