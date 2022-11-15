@@ -146,7 +146,7 @@
         "name": "Sugar Donuts",
         "detail": "This simple homemade donut dough is made with flour, milk, egg yolks, yeast, and sugar, then the donuts are fried and dredged in sugar.",
         "price": "59",
-        "img": ["_1.jpg", "_2.jpg", "_3.jpg", "_4.jpg"]
+        "img": ["doghnut_1.jpg", "doughnut_2.jpg"]
     },
     {
         "category": "bakery",
