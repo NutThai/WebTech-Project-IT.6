@@ -1,21 +1,20 @@
 if(localStorage.Username == null){
-    let log = "<button class='nowwhat' onclick='log()'>Log in</button>"
-    document.getElementById("userstatus").innerHTML = log;
+
+    document.getElementById("userstatus").innerHTML = "<button class='nowwhat' onclick='log()'>Log in</button>";
 }else{
-    let log = "<button class='nowwhat' onclick='log()'>Log out</button>"
-    document.getElementById("userstatus").innerHTML = log;
+
+    document.getElementsByClassName("acc")[0].innerHTML = `<div class="fas fa-user"></div>
+    <div class="username">${localStorage.Username}</div>`
+    document.getElementById("userstatus").innerHTML = "<button class='nowwhat' onclick='log()'>Log out</button>";
 
 }
 
 
 
-function user(){
-    
-}
+
 
 function log(){
-    localStorage.removeItem("Username")
-    localStorage.removeItem("Address")
+    localStorage.clear
     window.location.href = 'login.php'
 }
 
