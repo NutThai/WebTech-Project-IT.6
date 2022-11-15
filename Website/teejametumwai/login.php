@@ -82,8 +82,9 @@
             </div>
 
             <?php
-
-            session_start();
+            
+      
+            
             class MyDB extends SQLite3
             {
                 function __construct()
@@ -91,13 +92,21 @@
                     $this->open('user.db');
                 }
             }
-
+            
             $db = new MyDB();
-
+            // $sql =<<<EOF
+            // CREATE TABLE USER
+            // (FIRST_NAME           TEXT    NOT NULL,
+            // LAST_NAME           TEXT    NOT NULL,
+            // USERNAME           TEXT    PRIMARY KEY    NOT NULL,
+            // PASSWORD           TEXT    NOT NULL,
+            // ADDRESS        CHAR(100)    NOT NULL);
+            // EOF;
+            // $ret = $db->exec($sql);
             if (isset($_POST['SUBMIT'])) {
                 $Username = htmlentities($_POST['Username']);
                 $Password = htmlentities($_POST['Password']);
-                $sql = "SELECT * from COMPANY WHERE USERNAME = '$Username' AND PASSWORD = '$Password'";
+                $sql = "SELECT * from USER WHERE USERNAME = '$Username' AND PASSWORD = '$Password'";
                 $ret = $db->query($sql);
 
                 while ($row = $ret->fetchArray(SQLITE3_ASSOC)) {
@@ -105,7 +114,7 @@
                     echo    "localStorage.setItem('Username', '" . $Username . "')";
                     echo '</script>';
                     echo '<script type="text/javascript">';
-                    echo    'window.location="index.html"';
+                    echo    'window.location="main.html"';
                     echo '</script>';
                 }
                 echo '<script type="text/javascript">';

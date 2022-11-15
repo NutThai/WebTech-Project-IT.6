@@ -9,6 +9,9 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="style_bar.css">
+    <link rel="stylesheet" href="style_detail_main.css">
+    <link rel="stylesheet" href="body.css">
 </head>
 <style>
     body{
@@ -63,19 +66,19 @@
                 <h5>Taste of godbless!</h5>
             </div>
 
-        <div class="container">
+            <div class="container">
             <form method="POST">
                 <!-- <h2>Register</h2> -->
-                <label>Name:</label>
-                <input type="text" name="Name" required>
-                <label>Surname:</label>
-                <input type="text" name="Surname" required><br><br>
+                <label>First Name:</label>
+                <input type="text" name="First_Name" required>
+                <label>Last Name:</label>
+                <input type="text" name="Last_Name" required><br><br>
                 <label>Username:</label>
                 <input type="text" name="Username" required><br><br>
                 <label>Password</label>
                 <input type="password" name="Password" required><br><br>
                 <label>Confirm Password:</label>
-                <input type="password" name="Password_2" required><br><br>
+                <input type="password" name="confirmPassword" required><br><br>
                 <label>Address:</label>
                 <textarea rows="3" cols="30" name="Address" required></textarea><br><br>
                 <input type="submit" name="SUBMIT" value="Submit" class="btn btn-dark">
@@ -84,7 +87,7 @@
         </div>
     </div>
     <?php
-    session_start();
+
 
     class MyDB extends SQLite3
     {
@@ -96,20 +99,20 @@
     $db = new MyDB();
 
     if (isset($_POST['SUBMIT'])) {
-        $Name = htmlentities($_POST['Name']);
-        $Surname = htmlentities($_POST['Surname']);
+        $First_Name = htmlentities($_POST['First_Name']);
+        $Last_Name = htmlentities($_POST['Last_Name']);
         $Username = htmlentities($_POST['Username']);
         $Password = htmlentities($_POST['Password']);
-        $Password_2 = htmlentities($_POST['Password_2']);
+        $confirmPassword = htmlentities($_POST['confirmPassword']);
         $Address = htmlentities($_POST['Address']);
-        if ($Password != $Password_2) {
+        if ($Password != $confirmPassword) {
             echo '<script type="text/javascript">';
             echo 'alert("Password dose not match!")';
             echo '</script>';
         } else {
             $sql = <<<EOF
-                    INSERT INTO COMPANY(NAME,SURNAME,USERNAME,PASSWORD,ADDRESS)
-                    VALUES ('$Name', '$Surname','$Username', '$Password' ,'$Address');
+                    INSERT INTO USER(FIRST_NAME,LAST_NAME,USERNAME,PASSWORD,ADDRESS)
+                    VALUES ('$First_Name', '$Last_Name','$Username', '$Password' ,'$Address');
                 EOF;
             header('location: login.php');
             $ret = $db->exec($sql);
