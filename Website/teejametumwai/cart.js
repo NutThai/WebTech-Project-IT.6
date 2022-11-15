@@ -22,6 +22,9 @@ function categoryPage(e) {
     }
 }
 function addToCart(e) {
+    if(localStorage.Username == null){
+        window.location.href = 'login.php'
+    }
     id = Number(e.dataset.id)
     if (id in incart && incart[id] != null) {
         incart[id].qty++

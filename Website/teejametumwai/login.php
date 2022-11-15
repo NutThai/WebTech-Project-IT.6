@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style_bar.css">
     <link rel="stylesheet" href="style_detail_main.css">
     <link rel="stylesheet" href="body.css">
-    <title>Document</title>
+    <title>STUN Taste of Godbless!</title>
 </head>
 <script>
     localStorage.clear()

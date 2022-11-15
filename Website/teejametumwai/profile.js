@@ -1,11 +1,11 @@
 if(localStorage.Username == null){
 
-    document.getElementById("userstatus").innerHTML = "<button class='nowwhat' onclick='log()'>Log in</button>";
+    document.getElementById("userstatus").innerHTML = `<button class='nowwhat' onclick='window.location.href = "login.php"'>Log in</button>`;
 }else{
 
     document.getElementsByClassName("acc")[0].innerHTML = `<div class="fas fa-user"></div>
     <div class="username">${localStorage.Username}</div>`
-    document.getElementById("userstatus").innerHTML = "<button class='nowwhat' onclick='log()'>Log out</button>";
+    document.getElementById("userstatus").innerHTML = `<button class='nowwhat' onclick='window.location.href = "login.php"'>Log out</button>`;
 
 }
 
@@ -13,10 +13,6 @@ if(localStorage.Username == null){
 
 
 
-function log(){
-    localStorage.clear()
-    window.location.href = 'login.php'
-}
 
 function check(){
     if(localStorage.Username == null){
