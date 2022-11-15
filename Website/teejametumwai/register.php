@@ -11,42 +11,61 @@
     <title>Document</title>
 </head>
 <style>
-    body {
-        display: flex;
-        flex: 1;
+    body{
+            display: flex;
+            flex: 1;
+          
+        }
+        form {
+            margin: 10px;
+        }
+        .left{
+            width: 50%;
+            position: absolute;
+            height: 100%;
 
-    }
+        }
+        .right{
+            width: 50%;
+            padding-top: 200px;
+            background-color: var(--ci2);
+            height: 100%;
+            position: absolute;
+            right: 0;
+            color: white;
+            
+        }
+        img{
+            height: 100%;
+        }
+        .nameweb{
+            text-align: center;
+            margin-bottom: 100px;
+        }
+        h1{
+            font-size: 100px;
+            font-weight: bold;
+            line-height: 80px;
+            letter-spacing: 10px;
+        }
+        .container{
+            padding: 0px 50px;
+          
+        }
 
-    form {
-        margin: 10px;
-    }
+    </style>
 
-    .left {
-        width: 50%;
-        position: absolute;
-        height: 100%;
+    <body>
+        <div class="left"><img src="img/p1.jpg" alt=""></div>
+        <div class="right">
+            <div class="nameweb">
+                <h1>STUN</h1>
+                <h5>Taste of godbless!</h5>
+            </div>
 
-    }
-
-    .right {
-        width: 50%;
-        padding-top: 300px;
-        background-color: black;
-        height: 100%;
-        position: absolute;
-        right: 0;
-        color: white;
-
-    }
-</style>
-
-<body>
-    <div class="left"><img src="img/p1.jpg" alt=""></div>
-    <div class="right">
-        <h1>STUN</h1>
         <div class="container">
             <form method="POST">
-                <h2>Register</h2>
+                <!-- <h2>Register</h2> -->
                 <label>Name:</label>
                 <input type="text" name="Name" required>
                 <label>Surname:</label>
