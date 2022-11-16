@@ -59,13 +59,16 @@
         }
 
         .container {
-            width: 500px;
+            width: 700px;
             padding: 30px;
             border: solid white 2px;
             border-radius: 10px;
-
+            margin-top: -50px;
+            
         }
-
+        label{
+            margin-left: 10px;
+        }
         .btn{
             font-weight:bold;
             width: 100%;
@@ -86,7 +89,8 @@
             border-radius: 10px;
             margin-left: 10px;
             color: white;
-            max-height: 80px;
+            max-height: 120px;
+            width: 500px;
         }
     </style>
 
@@ -102,7 +106,7 @@
             <form method="POST">
                 <!-- <h2>Register</h2> -->
                 <label>First Name:</label>
-                <input type="text" name="First_Name" required><br><br>
+                <input type="text" name="First_Name" required>
                 <label>Last Name:</label>
                 <input type="text" name="Last_Name" required><br><br>
                 <label>Username:</label>

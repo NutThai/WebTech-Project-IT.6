@@ -66,7 +66,9 @@
             line-height: 80px;
             letter-spacing: 10px;
         }
-
+        label{
+            margin-left: 10px;
+        }
         .container {
             width: 500px;
             padding: 30px;
