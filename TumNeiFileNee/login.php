@@ -130,7 +130,9 @@
             // LAST_NAME           TEXT    NOT NULL,
             // USERNAME           TEXT    PRIMARY KEY    NOT NULL,
             // PASSWORD           TEXT    NOT NULL,
-            // ADDRESS        CHAR(100)    NOT NULL);
+            // ADDRESS        TEXT    NOT NULL,
+            // PHONE        TEXT    NOT NULL
+            // );
             // EOF;
             // $ret = $db->exec($sql);
             if (isset($_POST['SUBMIT'])) {
@@ -154,6 +156,9 @@
                         echo '</script>';
                         echo '<script type="text/javascript">';
                         echo  "localStorage.setItem('Address', '" . $row['ADDRESS'] . "')";
+                        echo '</script>';
+                        echo '<script type="text/javascript">';
+                        echo  "localStorage.setItem('Phone', '" . $row['PHONE'] . "')";
                         echo '</script>';
                         echo '<script type="text/javascript">window.location="main.html"</script>';
                         }

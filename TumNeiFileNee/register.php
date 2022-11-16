@@ -107,6 +107,8 @@
                 <input type="text" name="Last_Name" required><br><br>
                 <label>Username:</label>
                 <input type="text" name="Username" required><br><br>
+                <label>Phone:</label>
+                <input type="text" name="Phone" required><br><br>
                 <label>Password</label>
                 <input type="password" name="Password" required><br><br>
                 <label>Confirm Password:</label>
@@ -138,14 +140,16 @@
         $Password = htmlentities($_POST['Password']);
         $confirmPassword = htmlentities($_POST['confirmPassword']);
         $Address = htmlentities($_POST['Address']);
+        $Phone = htmlentities($_POST['Phone']);
+        
         if ($Password != $confirmPassword) {
             echo '<script type="text/javascript">';
             echo 'alert("Password dose not match!")';
             echo '</script>';
         } else {
             $sql = <<<EOF
-                    INSERT INTO USER(FIRST_NAME,LAST_NAME,USERNAME,PASSWORD,ADDRESS)
-                    VALUES ('$First_Name', '$Last_Name','$Username', '$Password' ,'$Address');
+                    INSERT INTO USER(FIRST_NAME,LAST_NAME,USERNAME,PASSWORD,ADDRESS,PHONE)
+                    VALUES ('$First_Name', '$Last_Name','$Username', '$Password' ,'$Address','$Phone');
                 EOF;
             header('location: login.php');
             $ret = $db->exec($sql);
