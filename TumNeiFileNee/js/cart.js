@@ -106,13 +106,13 @@ function showMe() {
                     `;
                     checkout += `
                     <tr>
-                        <td class="cartimg"><img src="img/${data[i].img[0]}" class="img_cart"></td>
+                        <td class="cartimgcheck"><img src="img/${data[i].img[0]}" class="img_cart"></td>
                         <td class="cartname">${data[i].name}</td>
-                        <td clasd="price">${data[i].price*incart[i].qty} <br> THB</td>
+                        <td class="price">${data[i].price*incart[i].qty} <br> THB</td>
                         <td class="gap"></td>
 
                         <td id="counting_cart" class="count">x ${incart[i].qty}</td>
-                        
+                        <td class="gap"></td>
                     </tr>
                     `;
                     
@@ -128,8 +128,9 @@ function showMe() {
             document.getElementById("cartmenu").innerHTML = cart
             try{
 
-                checkout += `<td id="counting_cart" class="totalprice">${total} THB</td>`
+                // checkout += `<td id="counting_cart" class="totalprice">${total} THB</td>`
                 document.getElementById("checkout").innerHTML = checkout
+                document.getElementById("total").innerHTML = `<h6>Delivery fee : 0 THB<h6><h6>Total : ${total} THB </h6>`
             }
             catch(e){
                 

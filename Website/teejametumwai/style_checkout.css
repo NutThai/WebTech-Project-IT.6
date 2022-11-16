@@ -39,6 +39,12 @@
 
 }
 
+.addtocart:hover{
+    background-color: var(--ci2);
+    color: var(--ci6);
+}
+
+
 nav{
     background-color: var(--ci2);
 }
