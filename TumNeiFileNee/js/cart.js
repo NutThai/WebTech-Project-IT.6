@@ -94,7 +94,7 @@ function showMe() {
                     <tr>
                         <td class="cartimg"><img src="img/${data[i].img[0]}" class="img_cart"></td>
                         <td class="cartname">${data[i].name}</td>
-                        <td clasd="price">${data[i].price*incart[i].qty} THB</td>
+                        <td clasd="price">${data[i].price*incart[i].qty} <br> THB</td>
                         <td class="gap"></td>
                         <td><button data-id="${data[i].id}" onclick="addToCart(this)">+</button></td>
                         <td id="counting_cart" class="count">${incart[i].qty}</td>
@@ -108,7 +108,7 @@ function showMe() {
                     <tr>
                         <td class="cartimg"><img src="img/${data[i].img[0]}" class="img_cart"></td>
                         <td class="cartname">${data[i].name}</td>
-                        <td clasd="price">${data[i].price*incart[i].qty} THB</td>
+                        <td clasd="price">${data[i].price*incart[i].qty} <br> THB</td>
                         <td class="gap"></td>
 
                         <td id="counting_cart" class="count">x ${incart[i].qty}</td>

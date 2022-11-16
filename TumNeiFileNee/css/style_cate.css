@@ -5,5 +5,22 @@
     margin: auto;
     width: 90%;
     display: flex;
-    gap: 50px;
+    gap: 30px;
+}
+
+.seealls{
+    color: var(--ci2);
+    margin-top: 15px;
+    border: solid rgb(224, 224, 224) 1px;
+    padding: 0px 10px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.seealls:hover{
+    color: var(--ci6);
+    cursor: pointer;
+    background-color: var(--ci2);
+    border: solid transparent 1px;
 }
