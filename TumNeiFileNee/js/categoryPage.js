@@ -365,19 +365,57 @@ function loadJSON() {
                     }
                 }
             });
+            // <img src="img/machapara.jpg" alt="ad1" width="100%">
+            // <div class="main_content_1_right">
+
+            //     <div class="h1">Into The Green Zone!</div>
+            //     <button type="button" class="btn main_content_1_right_btn">Let's Try!</botton>
+
+            // </div>
+            
+            if(location.href.split("/").slice(-1) == "category.html"){
+                let ca = localStorage.categoryPage 
+                let try_this =""
+                if(ca == 'cake'||ca == 'cookie'||ca=='bread'||ca=='donut'){
+                    try_this += `<img src="img/macadamia.jpg" alt="ad1" width="100%">
+                    <div class="main_content_1_right" >
+        
+                        <div class="h1" >Baking the World New Classics!</div>
+                        <button type="button" class="btn main_content_1_right_btn" data-id="6" onclick="productPage(this)">Let's Try!</botton>
+        
+                    </div>`;
+                }
+                else{
+                    try_this += `<img src="img/espress.jpg" alt="ad1" width="100%">
+                            <div class="main_content_1_right">
+                
+                                <div class="h1" >Taste a life full of celebration!</div>
+                                <button type="button" data-id="16" onclick="productPage(this)" class="btn main_content_1_right_btn">Let's Try!</botton>
+                
+                            </div>`;
+                }
+                document.getElementsByClassName("main_content_1")[0].innerHTML = try_this;
+            }
+            
             if (location.href.split("/").slice(-1) == "cafe.html" || location.href.split("/").slice(-1) == "bakery.html") {
+                
                 if (location.href.split("/").slice(-1) == "bakery.html" ) {
+                    
                     document.getElementById("cake").innerHTML = cakeflex
                     document.getElementById("cookie").innerHTML = cookieflex
                     document.getElementById("bread").innerHTML = breadflex
                     document.getElementById("donut").innerHTML = donutflex
+
                 }
                 else {
+                    
                     document.getElementById("coffee").innerHTML = coffeeflex
                     document.getElementById("milk").innerHTML = milkflex
                     document.getElementById("tea").innerHTML = teaflex
                     document.getElementById("soda").innerHTML = sodaflex
                 }
+                
+                
             }
             else {
                 if (localStorage.categoryPage == "cake") {
