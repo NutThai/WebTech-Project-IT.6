@@ -13,7 +13,7 @@
         "subcategory": "cake",
         "recommend": "true",
         "id": "01",
-        "name": "Thiramisu",
+        "name": "Tiramitsu",
         "detail": "an elegant and rich layered Italian dessert made with delicate ladyfinger cookies, espresso or instant espresso, mascarpone cheese, eggs, sugar, Marsala wine, rum and cocoa powder.",
         "price": "259",
         "img": ["tiramisu-1.jpg", "tiramisu-2.jpg", "tiramisu-3.jpg", "tiramisu-4.jpg"]
@@ -184,8 +184,8 @@
         "recommend": "false",
         "id": "18",
         "name": "Latte",
-        "detail": "xxx3",
-        "price": "60",
+        "detail": "Caffè latte, often shortened to just latte in English, is a coffee beverage of Italian origin made with espresso and steamed milk. ",
+        "price": "99",
         "img": ["ice_lattee.jpg"]
     },
     {
@@ -194,8 +194,8 @@
         "recommend": "false",
         "id": "19",
         "name": "Cappuucino",
-        "detail": "xxx4",
-        "price": "60",
+        "detail": "is an espresso-based coffee drink that originated in Austria and was later popularized in Italy and is prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder.",
+        "price": "99",
         "img": ["Ice_Cappucino.jpg"]
     },
     {
@@ -204,8 +204,8 @@
         "recommend": "true",
         "id": "20",
         "name": "Sky and Sea",
-        "detail": "xxx1",
-        "price": "50",
+        "detail": "is a milk and on top with butterfly pea syrup ",
+        "price": "89",
         "img": ["sky_and_sea.jpg"]
     },
     {
@@ -214,8 +214,8 @@
         "recommend": "false",
         "id": "21",
         "name": "Happy Chocolate Times",
-        "detail": "xxx2",
-        "price": "50",
+        "detail": "Hot chocolate, also known as hot cocoa or drinking chocolate, is a heated drink consisting of shaved chocolate, melted chocolate or cocoa powder, heated milk or water, and usually a sweetener like whipped cream or marshmallows.",
+        "price": "89",
         "img": ["happy&hot_cocao_limited-premium_set.jpg"]
     },
     {
@@ -224,8 +224,8 @@
         "recommend": "false",
         "id": "22",
         "name": "Vanilla Milk",
-        "detail": "xxx3",
-        "price": "50",
+        "detail": "Vanilla milk is white milk with vanilla flavoring in it. The vanilla is sometimes artificial, although other times it is real vanilla. Since vanilla extract often contains alcohol, putting too much vanilla in the milk can make it an alcoholic beverage",
+        "price": "89",
         "img": ["vanilla_cinnamon_milk.jpg"]
     },
     {
@@ -233,9 +233,9 @@
         "subcategory": "milk",
         "recommend": "true",
         "id": "23",
-        "name": "Red Syrub Milk",
-        "detail": "xxx4",
-        "price": "50",
+        "name": "Red Syrup Milk",
+        "detail": "Similar to strawberry milk, but more intense and sweet in flavour. It's very aromatic and will definitely appease your sense of smell as well as your tastebuds.",
+        "price": "89",
         "img": ["thai_nom_yen.jpg"]
     },
     {
@@ -244,8 +244,8 @@
         "recommend": "true",
         "id": "24",
         "name": "Cha Thai",
-        "detail": "xxx1",
-        "price": "50",
+        "detail": "Thai tea is usually known as a Thai drink made from Ceylon tea, milk and sugar, and served hot or cold. It is popular in Southeast Asia and is served in many restaurants that serve Thai food.",
+        "price": "89",
         "img": ["thai_tea.jpg"]
     },
     {
@@ -254,8 +254,8 @@
         "recommend": "false",
         "id": "25",
         "name": "Strawberry Tea",
-        "detail": "xxx2",
-        "price": "50",
+        "detail": "Strawberry tea is a red, sweet, fruity, and freshly brewed tea that is flavored with fresh summer strawberries.",
+        "price": "89",
         "img": ["strawberry_ice_tea.jpg"]
     },
     {
@@ -264,8 +264,8 @@
         "recommend": "false",
         "id": "26",
         "name": "Lemon Black Tea",
-        "detail": "xxx3",
-        "price": "50",
+        "detail": "Lemon black tea is tea made with black tea leaves and lemon slices. There are many different types and strengths of lemon tea: Pure black hot tea with a slice of lemon added before or after brewing. Pure black hot or iced tea with lemon juice.",
+        "price": "89",
         "img": ["lemon_tea.jpg"]
     },
     {
@@ -274,8 +274,8 @@
         "recommend": "true",
         "id": "27",
         "name": "Milk Green Tea",
-        "detail": "xxx4",
-        "price": "50",
+        "detail": "is a refreshing drink made from Japanese green tea powder, hot water, and milk.",
+        "price": "99",
         "img": ["ice_milk_green_tea.jpg"]
     },
     {
@@ -284,8 +284,8 @@
         "recommend": "false",
         "id": "28",
         "name": "Nonalcoholic Hawaiian",
-        "detail": "xxx1",
-        "price": "60",
+        "detail": "A non-alcoholic mixed drink (also known as virgin cocktail, boneless cocktail, temperance drink, or mocktail) is a cocktail-style beverage made without alcoholic ingredients.",
+        "price": "89",
         "img": ["Hawaiian.jpg"]
     },
     {
@@ -293,9 +293,9 @@
         "subcategory": "soda",
         "recommend": "true",
         "id": "29",
-        "name": "Lemon Soda",
-        "detail": "xxx2",
-        "price": "60",
+        "name": "Lemonade",
+        "detail": "Lemon soda is a wonderful thing to keep on hand for easy, bright cocktails – particularly in seasons or regions where good citrus may not be readily available.",
+        "price": "89",
         "img": ["lemon-soda.jpg"]
     },
     {
@@ -304,8 +304,8 @@
         "recommend": "false",
         "id": "30",
         "name": "Peach & Mango Mojito",
-        "detail": "xxx3",
-        "price": "60",
+        "detail": "Bacardi Mango rum, muddled fresh mint, peach-infused syrup, fresh squeezed lime, and a splash of ginger beer.",
+        "price": "119",
         "img": ["mojito.jpg"]
     },
     {
@@ -314,8 +314,8 @@
         "recommend": "false",
         "id": "31",
         "name": "Matcha Party",
-        "detail": "xxx4",
-        "price": "60",
+        "detail": "Special set for macha lover.",
+        "price": "119",
         "img": ["seasonal_matcha_minibundle.jpg"]
     }
 
