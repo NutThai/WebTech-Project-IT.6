@@ -162,7 +162,7 @@
                         echo '<script type="text/javascript">';
                         echo  "localStorage.setItem('Phone', '" . $row['PHONE'] . "')";
                         echo '</script>';
-                        echo '<script type="text/javascript">window.location="main.html"</script>';
+                        echo '<script type="text/javascript">window.location="index.html"</script>';
                         }
                 }
 
