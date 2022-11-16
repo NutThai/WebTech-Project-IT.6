@@ -147,6 +147,12 @@
                     $ret = $db->query($sql);
                     while($row = $ret->fetchArray(SQLITE3_ASSOC) ) {
                         echo '<script type="text/javascript">';
+                        echo  "localStorage.setItem('FirstName', '" . $row['FIRST_NAME'] . "')";
+                        echo '</script>';
+                        echo '<script type="text/javascript">';
+                        echo  "localStorage.setItem('LastName', '" . $row['LAST_NAME'] . "')";
+                        echo '</script>';
+                        echo '<script type="text/javascript">';
                         echo  "localStorage.setItem('Address', '" . $row['ADDRESS'] . "')";
                         echo '</script>';
                         echo '<script type="text/javascript">window.location="main.html"</script>';
