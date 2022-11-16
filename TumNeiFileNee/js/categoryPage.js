@@ -365,8 +365,8 @@ function loadJSON() {
                     }
                 }
             });
-            if (localStorage.categoryPage == "cafe" || localStorage.categoryPage == "bakery") {
-                if (localStorage.categoryPage == "bakery") {
+            if (location.href.split("/").slice(-1) == "cafe.html" || location.href.split("/").slice(-1) == "bakery.html") {
+                if (location.href.split("/").slice(-1) == "bakery.html" ) {
                     document.getElementById("cake").innerHTML = cakeflex
                     document.getElementById("cookie").innerHTML = cookieflex
                     document.getElementById("bread").innerHTML = breadflex
@@ -379,52 +379,6 @@ function loadJSON() {
                     document.getElementById("soda").innerHTML = sodaflex
                 }
             }
-            // text += `
-            //         <div>
-            //             <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
-            //             <div class="text_product">
-            //                 <h4>${product.name}</h3>
-            //                     <h6>${product.price} THB</h5>
-            //             </div>
-
-            //         </div>
-            // `;
-            //     document.getElementsByClassName("recommend")[0].innerHTML = recommend;
-            //     document.getElementsByClassName("main_content_3")[0].innerHTML = main_content_3;
-            // if (localStorage.categoryPage == "bakery" || localStorage.categoryPage == "cafe") {
-            //     data.forEach(product => {
-            //         if (product.category == localStorage.categoryPage) {
-            //             text += `
-            //                 <div>
-            //                     <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
-            //                     <div class="text_product">
-            //                         <h4>${product.name}</h3>
-            //                             <h6>${product.price} THB</h5>
-            //                     </div>
-
-            //                 </div>
-            //         `;
-            //         }
-            //     });
-            // }
-            // else {
-            //     text += `<h2>${localStorage.categoryPage}</h2>`;
-            //     data.forEach(product => {
-            //         if (product.subcategory == localStorage.categoryPage) {
-            //             text += `
-            //                 <div>
-            //                     <img class="recommend_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
-            //                     <div class="text_product">
-            //                         <h4>${product.name}</h3>
-            //                             <h6>${product.price} THB</h5>
-            //                     </div>
-
-            //                 </div>
-            //         `;
-            //         }
-
-            //     });
-            // }
             else {
                 if (localStorage.categoryPage == "cake") {
                     document.getElementsByClassName("nameofcate")[0].innerHTML = "<h1>Cake</h1>"
