@@ -13,7 +13,7 @@ function check(){
     if(localStorage.Username == null){
         window.location.href = 'login.php'
     }else{
-        window.location.href = 'check.html'
+        window.location.href = 'checkout.html'
     }
 }
 

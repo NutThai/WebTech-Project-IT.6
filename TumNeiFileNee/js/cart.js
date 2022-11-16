@@ -84,6 +84,7 @@ function showMe() {
     let cart = "";
     let checkout = "";
     let total = 0;
+    let amount = 0;
     i = 0
     fetch('menu.json')
         .then(response => response.json())
@@ -117,7 +118,7 @@ function showMe() {
                     `;
                     
                     total += Number(data[i].price)*Number(incart[i].qty);
-                    
+                    amount += Number(incart[i].qty)
                 
                 }
                 i++
@@ -130,7 +131,7 @@ function showMe() {
 
                 // checkout += `<td id="counting_cart" class="totalprice">${total} THB</td>`
                 document.getElementById("checkout").innerHTML = checkout
-                document.getElementById("total").innerHTML = `<h6>Delivery fee : 0 THB<h6><h6>Total : ${total} THB </h6>`
+                document.getElementById("total").innerHTML = `<h6>Delivery fee : 0 THB<h6><h6>Total : ${total} THB </h6><h6>Amount : ${amount}</h6>`
             }
             catch(e){
                 
