@@ -157,13 +157,13 @@
     background-color: var(--ci6);
     position: relative;
     transition: .2s;
-    overflow: scroll;
+    overflow: auto;
     margin: auto;
     margin-bottom: 50px;
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 5px;
     height: 5px;
 }
 
