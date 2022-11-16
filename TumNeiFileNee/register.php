@@ -14,52 +14,84 @@
     <link rel="stylesheet" href="body.css">
 </head>
 <style>
-    body{
+    body {
             display: flex;
             flex: 1;
-          
+
         }
+
         form {
             margin: 10px;
         }
-        .left{
+
+        .left {
             width: 50%;
             position: absolute;
             height: 100%;
 
         }
-        .right{
+
+        .right {
             width: 50%;
             padding-top: 200px;
-            background-color: var(--ci2);
+            background-color: rgb(22, 22, 22);
             height: 100%;
             position: absolute;
             right: 0;
             color: white;
-            
+
         }
-        img{
+
+        img {
             height: 100%;
         }
-        .nameweb{
+
+        .nameweb {
             text-align: center;
             margin-bottom: 100px;
         }
-        h1{
+
+        h1 {
             font-size: 100px;
             font-weight: bold;
             line-height: 80px;
             letter-spacing: 10px;
         }
-        .container{
-            padding: 0px 50px;
-          
+
+        .container {
+            width: 500px;
+            padding: 30px;
+            border: solid white 2px;
+            border-radius: 10px;
+
         }
 
+        .btn{
+            font-weight:bold;
+            width: 100%;
+            margin: auto;
+            border-radius: 50px;
+        }
+        input{
+            background-color: transparent;
+            border: solid white 1px;
+            border-radius: 50px;
+            margin-left: 10px;
+            color: white;
+        }
+
+        textarea{
+            background-color: transparent;
+            border: solid white 1px;
+            border-radius: 10px;
+            margin-left: 10px;
+            color: white;
+            max-height: 80px;
+        }
     </style>
 
     <body>
-        <div class="left"><img src="img/p1.jpg" alt=""></div>
+        <div class="left"><img src="img/ad1.jpg" alt=""></div>
         <div class="right">
             <div class="nameweb">
                 <h1>STUN</h1>
@@ -70,7 +102,7 @@
             <form method="POST">
                 <!-- <h2>Register</h2> -->
                 <label>First Name:</label>
-                <input type="text" name="First_Name" required>
+                <input type="text" name="First_Name" required><br><br>
                 <label>Last Name:</label>
                 <input type="text" name="Last_Name" required><br><br>
                 <label>Username:</label>
@@ -81,12 +113,13 @@
                 <input type="password" name="confirmPassword" required><br><br>
                 <label>Address:</label>
                 <textarea rows="3" cols="30" name="Address" required></textarea><br><br>
-                <input type="submit" name="SUBMIT" value="Submit" class="btn btn-dark">
+                <input type="submit" name="SUBMIT" value="Submit" class="btn btn-light">
+                <br><br>
                 <p>Already a member? <a href="login.php">Sign In</a></p>
             </form>
         </div>
     </div>
-    <?php
+     <?php
 
 
     class MyDB extends SQLite3
@@ -123,7 +156,7 @@
     $db->close();
 
 
-    ?>
+    ?> 
 
 </body>
 

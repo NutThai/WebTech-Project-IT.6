@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="style_bar.css">
     <link rel="stylesheet" href="style_detail_main.css">
@@ -17,54 +20,78 @@
 <script>
     localStorage.clear()
 </script>
+
 <body>
     <style>
-        body{
+        body {
             display: flex;
             flex: 1;
-          
+
         }
+
         form {
             margin: 10px;
         }
-        .left{
+
+        .left {
             width: 50%;
             position: absolute;
             height: 100%;
 
         }
-        .right{
+
+        .right {
             width: 50%;
             padding-top: 200px;
-            background-color: var(--ci2);
+            background-color: rgb(22, 22, 22);
             height: 100%;
             position: absolute;
             right: 0;
             color: white;
-            
+
         }
-        img{
+
+        img {
             height: 100%;
         }
-        .nameweb{
+
+        .nameweb {
             text-align: center;
             margin-bottom: 100px;
         }
-        h1{
+
+        h1 {
             font-size: 100px;
             font-weight: bold;
             line-height: 80px;
             letter-spacing: 10px;
         }
-        .container{
-            padding: 0px 50px;
-          
+
+        .container {
+            width: 500px;
+            padding: 30px;
+            border: solid white 2px;
+            border-radius: 10px;
+
         }
 
+        .btn{
+            font-weight:bold;
+            width: 100%;
+            margin: auto;
+            border-radius: 50px;
+        }
+        input{
+            background-color: transparent;
+            border: solid white 1px;
+            border-radius: 50px;
+            margin-left: 10px;
+            color: white;
+        }
     </style>
 
     <body>
-        <div class="left"><img src="img/p1.jpg" alt=""></div>
+        <div class="left"><img src="img/ad1.jpg" alt=""></div>
         <div class="right">
             <div class="nameweb">
                 <h1>STUN</h1>
@@ -78,7 +105,8 @@
                     <input type="text" name="Username" required><br><br>
                     <label>Password:</label>
                     <input type="password" name="Password" required><br><br>
-                    <input type="submit" name="SUBMIT" value="Login" class="btn btn-dark"><br>
+                    <input type="submit" name="SUBMIT" value="Login" class="btn btn-light"><br>
+                    <br>
                     <p>Not a member? <a href="register.php">Sign Up</a> here.</p>
                 </form>
             </div>
