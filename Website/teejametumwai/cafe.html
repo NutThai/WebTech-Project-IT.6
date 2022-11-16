@@ -33,56 +33,57 @@
         <div class="search-icon">
             <span class="fas fa-search"></span>
         </div>
-        <div class="logo" ><a href="main.html">STUN</a></div>
+        <div class="logo"><a href="main.html">STUN</a></div>
         <div class="exul">
             <div class="cancel-icon">
                 <span class="fas fa-times"></span>
             </div>
-            <li><a class="underline" href="main.html">Home</a></li>
+            <li><a class="underline hov" href="main.html">Home</a></li>
             <li>
-                <label class="show" for="btn-1">Bakery <span class="fas fa-caret-down"></span></label>
-                <a class="underline" data-category="bakery" onclick="categoryPage(this)">Bakery</a>
+                <label class="show underline hov" for="btn-1">Bakery <span class="fas fa-caret-down"></span></label>
+                <a class="underline hov" data-category="bakery" onclick="categoryPage(this)">Bakery</a>
                 <input type="checkbox" name="btn-1" id="btn-1">
                 <ul>
-                    <li><a data-category="cake" onclick="categoryPage(this)">Cake</a></li>
-                    <li><a data-category="cookie" onclick="categoryPage(this)">Cookie</a></li>
-                    <li><a data-category="bread" onclick="categoryPage(this)">Bread</a></li>
-                    <li><a data-category="donut" onclick="categoryPage(this)">Donut</a></li>
+                    <li><a class="hov" data-category="cake" onclick="categoryPage(this)">Cake</a></li>
+                    <li><a class="hov" data-category="cookie" onclick="categoryPage(this)">Cookie</a></li>
+                    <li><a class="hov" data-category="bread" onclick="categoryPage(this)">Bread</a></li>
+                    <li><a class="hov" data-category="donut" onclick="categoryPage(this)">Donut</a></li>
                 </ul>
             </li>
             <li>
-                <label class="show" for="btn-2">Cafe<span class="fas fa-caret-down"></span></label>
-                <a class="underline" data-category="cafe" onclick="categoryPage(this)">Cafe</i></a>
+                <label class="show underline hov" for="btn-2">Cafe<span class="fas fa-caret-down"></span></label>
+                <a class="underline hov" data-category="cafe" onclick="categoryPage(this)">Cafe</i></a>
                 <input type="checkbox" name="btn-2" id="btn-2">
                 <ul>
-                    <li><a data-category="coffee" onclick="categoryPage(this)">Coffee</a></li>
-                    <li><a data-category="milk" onclick="categoryPage(this)">Milk</a></li>
-                    <li><a data-category="tea" onclick="categoryPage(this)">Tea</a></li>
-                    <li><a data-category="soda" onclick="categoryPage(this)">Soda</a></li>
+                    <li><a class="hov" data-category="coffee" onclick="categoryPage(this)">Coffee</a></li>
+                    <li><a class="hov" data-category="milk" onclick="categoryPage(this)">Milk</a></li>
+                    <li><a class="hov" data-category="tea" onclick="categoryPage(this)">Tea</a></li>
+                    <li><a class="hov" data-category="soda" onclick="categoryPage(this)">Soda</a></li>
                 </ul>
             </li>
             <!-- <li><a href="#" class="underline">About</a></li> -->
         </div>
+
         <div class="search-icon2">
             <span class="fas fa-search"></span>
         </div>
-        <div class="cancel-icon">
+        <div class="cancel-icon hov">
             <span class="fas fa-times"></span>
         </div>
         <!-- <form action="#">
             <input type="search" class="search-data" placeholder="Ex. Red velvet, Italian Soda" required>
             <button type="submit" class="fas fa-search"></button>
         </form> -->
-        <div class="cart-icon">
+        <div class="cart-icon hov">
             <span class="fas fa-shopping-cart"></span>
         </div>
-
-        <div class="user-icon">
+        <div class="user-icon hov">
             <span class="fas fa-user"></span>
         </div>
-        <div class="whenuser hide">
+        <div class="whenuser hide ">
             <div class="acc">
-
+                <!-- <div class="fas fa-user"></div>
+                <div class="username"></div> -->
             </div>
             
             <hr>
@@ -95,7 +96,34 @@
             </div>
             <br>
         </div>
+
+        
+
     </nav>
+    <div class="whencartive"></div>
+    <div class="cartive">
+        <div class="cart_nav">
+            <div class="h4">SHOPPING CART</div>
+            <div class="cancel-icon2">
+                <span class="fas fa-times"></span>
+            </div>
+        </div>
+        <div class="cartmenus">
+            <table id="cartmenu">
+                <!-- <tr>
+                <td class="cartimg"><img src="img/p1.jpg" class="img_cart"></td>
+                <td class="cartname">ชื่ออะไรเอ่ย</td>
+                <td><button>+</button></td>
+                <td id="counting_cart" class="count">55</td>
+                <td><button>-</button></td>
+                <td class="gap"></td>
+            </tr> -->
+
+            </table>
+        </div>
+        <button type="button" class="addtocarts" onclick="check()">Next Step</botton>
+
+    </div>
     <div class="whencartive"></div>
     <div class="cartive">
         <div class="cart_nav">
@@ -134,7 +162,7 @@
         <div id="headcate">
             <div class="nameofcate">
                 <h1>Coffee</h1>
-                <a data-category="coffee" onclick="categoryPage(this)">see all</a>
+                <a data-category="coffee" class="seealls" onclick="categoryPage(this)">see all</a>
             </div>
 
             <div id="coffee" class="main_content_2">
@@ -142,21 +170,21 @@
             </div>
             <div class="nameofcate">
                 <h1>Milk</h1>
-                <a data-category="milk" onclick="categoryPage(this)">see all</a>
+                <a data-category="milk" class="seealls" onclick="categoryPage(this)">see all</a>
             </div>
             <div id="milk" class="main_content_2">
                 
             </div>
             <div class="nameofcate">
                 <h1>Tea</h1>
-                <a data-category="tea" onclick="categoryPage(this)">see all</a>
+                <a data-category="tea" class="seealls" onclick="categoryPage(this)">see all</a>
             </div>
             <div id="tea" class="main_content_2">
                
             </div>
             <div class="nameofcate">
                 <h1>Soda</h1>
-                <a data-category="soda" onclick="categoryPage(this)">see all</a>
+                <a data-category="soda" class="seealls" onclick="categoryPage(this)">see all</a>
             </div>
             <div id="soda" class="main_content_2">
                 

@@ -77,12 +77,14 @@ nav .exul li a:hover{
     transition-property: left right;
     transition-duration: 0.2s;
     transition-timing-function: ease-out;
+    border-radius: 20px;
 }
 
 .underline:hover:after,
 .underline:focus:after,
 .underline:active:after {
     right: 0;
+    
 }
 
 nav form {
@@ -92,6 +94,7 @@ nav form {
     min-width: 18% !important;
     border: 1px solid bisque;
     border-radius: 2px;
+    
 }
 
 nav form .search-data {
@@ -205,7 +208,7 @@ nav .search-icon2 {
 
 nav .exul ul {
     position: absolute;
-    top: 60px;
+    top: 50px;
     height: auto;
     align-items: center;
     padding: 5px;
@@ -220,7 +223,7 @@ nav .exul ul {
 }
 
 nav .exul li:hover>ul {
-    top: 70px;
+    top: 60px;
     opacity: 1;
     visibility: visible;
 }
@@ -582,16 +585,22 @@ a:hover{
 
 }
 
+.addtocarts:hover{
+    background-color: var(--ci2);
+    color: var(--ci6);
+}
+
 .whenuser{
     position: fixed;
     right: 20px;
     top: 80px;
     background-color: var(--ci6);
     width: 200px;
-    padding: 20px;
     border-radius: 10px;
     transition: .2s;
     overflow: hidden;
+    padding: 10px 0px 0px 0px   ;
+    border: solid rgb(224, 224, 224) 1px;
     
 }
 
@@ -606,10 +615,14 @@ a:hover{
     font-weight: 600;
     text-align: left;
     gap: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
     
 }
-
+hr{
+    width: 150px;
+    margin: 20px auto;
+}
 .acc .fas{
     font-size: 30px;
 
@@ -617,12 +630,21 @@ a:hover{
 
 .whenuser.hide{
     height: 0;
-    overflow: hidden;
     padding: 0;
+    opacity: 0;
     
 }
-.username{
-    width: 110px;
- 
- 
+
+.fa-search,.search-icon{
+    opacity: 0;
+    cursor: default;
+}
+
+.hov{
+    cursor: pointer;
+}
+
+#userstatus{
+    margin-left: 20px;
+    margin-top: -15px;
 }
