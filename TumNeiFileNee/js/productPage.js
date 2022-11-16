@@ -19,13 +19,12 @@ function loadJSON() {
                     <h2 class="main_right_name">${data[localStorage.productPage].name}</h2>
                     <h3>${data[localStorage.productPage].price} THB</h3>
                     <div class="main_right_detail ">${data[localStorage.productPage].detail}
-                    <ul>
-                        <li>องุ่นกลมเหมือนคุกกี้</li>
-                        <li>องุ่นกลมเหมือนคุกกี้</li>
-                        <li>องุ่นกลมเหมือนคุกกี้</li>
-                        <li>องุ่นกลมเหมือนคุกกี้</li>
-                    </ul>
+                        
                     </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                     <button data-id="${data[localStorage.productPage].id}" type="button" onClick="addToCart(this)" class="addtocart btn">Add To Cart</button>
                     
                 </div>
