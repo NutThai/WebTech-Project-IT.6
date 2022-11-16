@@ -15,7 +15,7 @@
         "id": "01",
         "name": "Tiramitsu",
         "detail": "an elegant and rich layered Italian dessert made with delicate ladyfinger cookies, espresso or instant espresso, mascarpone cheese, eggs, sugar, Marsala wine, rum and cocoa powder.",
-        "price": "259",
+        "price": "279",
         "img": ["tiramisu-1.jpg", "tiramisu-2.jpg", "tiramisu-3.jpg", "tiramisu-4.jpg"]
     },
     {
@@ -35,7 +35,7 @@
         "id": "03",
         "name": "Brownie Cake",
         "detail": "This moist and tender cake is made using real chocolate butter, milk, eggs and boasts a crackly, meringue-like crust.",
-        "price": "199",
+        "price": "259",
         "img": ["Brownies-1.jpg", "Brownies-2.jpg", "Brownies-3.jpg"]
     },
     {
