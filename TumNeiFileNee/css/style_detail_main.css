@@ -95,3 +95,8 @@ footer{
 nav {
     background: var(--ci2);
 }
+
+.addtocart:hover{
+    background-color: var(--ci2);
+    color: var(--ci6);
+}
