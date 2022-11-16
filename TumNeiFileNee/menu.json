@@ -280,16 +280,6 @@
     },
     {
         "category": "cafe",
-        "subcategory": "tea",
-        "recommend": "false",
-        "id": "31",
-        "name": "Matcha Party",
-        "detail": "xxx4",
-        "price": "60",
-        "img": ["seasonal_matcha_minibundle.jpg"]
-    },
-    {
-        "category": "cafe",
         "subcategory": "soda",
         "recommend": "false",
         "id": "28",
@@ -317,6 +307,16 @@
         "detail": "xxx3",
         "price": "60",
         "img": ["mojito.jpg"]
+    },
+    {
+        "category": "cafe",
+        "subcategory": "tea",
+        "recommend": "false",
+        "id": "31",
+        "name": "Matcha Party",
+        "detail": "xxx4",
+        "price": "60",
+        "img": ["seasonal_matcha_minibundle.jpg"]
     }
 
 ]
