@@ -20,7 +20,7 @@ function check(){
 function addAddress(){
     document.getElementsByClassName("check_address")[0].innerHTML = `
     <div class="username">${localStorage.Username}</div>
-    <div class="name">${localStorage.First_Name} ${localStorage.Last_Name}</div> <br>
+    <div class="name">${localStorage.FirstName} ${localStorage.LastName}</div> <br>
     <div class="adress">${localStorage.Address}</div>
     <div class="phone">${localStorage.Phone}</div>
      `;

@@ -201,7 +201,7 @@
     {
         "category": "cafe",
         "subcategory": "milk",
-        "recommend": "false",
+        "recommend": "true",
         "id": "20",
         "name": "Sky and Sea",
         "detail": "xxx1",
@@ -231,7 +231,7 @@
     {
         "category": "cafe",
         "subcategory": "milk",
-        "recommend": "false",
+        "recommend": "true",
         "id": "23",
         "name": "Red Syrub Milk",
         "detail": "xxx4",
@@ -241,7 +241,7 @@
     {
         "category": "cafe",
         "subcategory": "tea",
-        "recommend": "false",
+        "recommend": "true",
         "id": "24",
         "name": "Cha Thai",
         "detail": "xxx1",
@@ -271,7 +271,7 @@
     {
         "category": "cafe",
         "subcategory": "tea",
-        "recommend": "false",
+        "recommend": "true",
         "id": "27",
         "name": "Milk Green Tea",
         "detail": "xxx4",
@@ -291,7 +291,7 @@
     {
         "category": "cafe",
         "subcategory": "soda",
-        "recommend": "false",
+        "recommend": "true",
         "id": "29",
         "name": "Lemon Soda",
         "detail": "xxx2",
