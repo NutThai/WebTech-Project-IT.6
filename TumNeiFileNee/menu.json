@@ -45,7 +45,7 @@
         "id": "04",
         "name": "Chocolate chip Cookie",
         "detail": "Generally, the recipe starts with a dough composed of flour, butter, both brown and white sugar, semi-sweet chocolate chips, eggs, and vanilla.",
-        "price": "59",
+        "price": "79",
         "img": ["chocolate-chip-cookies-1.jpg", "chocolate-chip-cookies-2.jpg", "chocolate-chip-cookies-3.jpg", "chocolate-chip-cookies-4.jpg"]
     },
     {
@@ -55,7 +55,7 @@
         "id": "05",
         "name": "Peanut Butter Cookie",
         "detail": "distinguished for having peanut butter as a principal ingredient, sugar, eggs, flour and vanilla.",
-        "price": "59",
+        "price": "79",
         "img": ["peanut_cookies_1.jpg", "peanut_cookies_2.jpg", "peanut_cookies_3.jpg", "peanut_cookies_4.jpg"]
     },
     {
@@ -65,7 +65,7 @@
         "id": "06",
         "name": "Macadamia Nut Cookie",
         "detail": "Recipe with macadamia nuts chopped, butter, egg, white chocolate chip, vanilla, flour and sugar.",
-        "price": "59",
+        "price": "79",
         "img": ["macadamia_1.jpg", "macadamia_2.jpg", "macadamia_3.jpg", "macadamia_4.jpg"]
     },
     {
@@ -75,7 +75,7 @@
         "id": "07",
         "name": "Oatmeal Cookie",
         "detail": "They're soft, chewy, and easily customizable — just raisins, nuts, or chocolate mix in the oats. ",
-        "price": "35",
+        "price": "79",
         "img": ["oat_cookies_1.jpg", "oat_cookies_2.jpg", "oat_cookies_3.jpg", "oat_cookies_4.jpg"]
     },
     {
