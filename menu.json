@@ -166,7 +166,7 @@
     "name": "Strawberry Doughnuts",
     "detail": "These Baked Strawberry Donuts are filled with a fresh strawberry glaze.",
     "price": "59",
-    "img": ["strawberry_doughnut_1.jpg", "strawberry_doughnut_2.jpg", "strawberry_doughnut_3.jpg", "strawberry_doughnut_4.jpg"]
+    "img": ["strawberry_doughnut_1.jpg", "strawberry_doughnut_2.jpg", "strawberry_doughnut_3.jpg"]
 },
 {
     "category": "cafe",
