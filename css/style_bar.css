@@ -125,6 +125,7 @@ nav .cart-icon {
     color: var(--ci6);
     margin: 15px;
     font-size: 20px;
+    position: relative;
 }
 
 nav .menu-icon,
@@ -707,4 +708,23 @@ footer table{
     font-weight: 800;
     font-size: 25px;
     
+}
+
+.howmany{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: rgb(206, 62, 62);
+    border-radius: 20px;
+    top: -8px;
+    right: -8px;
+    justify-content: center;
+    text-align: center;
+    line-height: 19px;
+    font-size: 15px;
+}
+.total{
+    color: var(--ci6);
+    text-decoration: underline;
+    font-size: 18px;
 }
