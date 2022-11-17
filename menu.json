@@ -1,322 +1,342 @@
 [{
-        "category": "bakery",
-        "subcategory": "cake",
-        "recommend": "true",
-        "id": "00",
-        "name": "Red velvet cake",
-        "detail": "traditionally a red, red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing. Traditional recipes do not use food coloring, with the red color due to non-Dutched, anthocyanin-rich cocoa. Common ingredients include buttermilk, butter, cocoa, vinegar, and flour. Beet juice or red food coloring may be used for the color.",
-        "price": "279",
-        "img": ["red-velvet-1.jpg", "red-velvet-2.jpg", "red-velvet-3.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "cake",
-        "recommend": "true",
-        "id": "01",
-        "name": "Tiramitsu",
-        "detail": "an elegant and rich layered Italian dessert made with delicate ladyfinger cookies, espresso or instant espresso, mascarpone cheese, eggs, sugar, Marsala wine, rum and cocoa powder.",
-        "price": "279",
-        "img": ["tiramisu-1.jpg", "tiramisu-2.jpg", "tiramisu-3.jpg", "tiramisu-4.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "cake",
-        "recommend": "false",
-        "id": "02",
-        "name": "Black forest cake",
-        "detail": "consists of several layers of chocolate sponge cake sandwiched with whipped cream and sour cherries. It is decorated with additional whipped cream, maraschino cherries, and chocolate shavings.",
-        "price": "279",
-        "img": ["black-forest-cake-1.jpg", "black-forest-cake-2.jpg", "black-forest-cake-3.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "cake",
-        "recommend": "false",
-        "id": "03",
-        "name": "Brownie Cake",
-        "detail": "This moist and tender cake is made using real chocolate butter, milk, eggs and boasts a crackly, meringue-like crust.",
-        "price": "259",
-        "img": ["Brownies-1.jpg", "Brownies-2.jpg", "Brownies-3.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "cookie",
-        "recommend": "true",
-        "id": "04",
-        "name": "Chocolate chip Cookie",
-        "detail": "Generally, the recipe starts with a dough composed of flour, butter, both brown and white sugar, semi-sweet chocolate chips, eggs, and vanilla.",
-        "price": "79",
-        "img": ["chocolate-chip-cookies-1.jpg", "chocolate-chip-cookies-2.jpg", "chocolate-chip-cookies-3.jpg", "chocolate-chip-cookies-4.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "cookie",
-        "recommend": "true",
-        "id": "05",
-        "name": "Peanut Butter Cookie",
-        "detail": "distinguished for having peanut butter as a principal ingredient, sugar, eggs, flour and vanilla.",
-        "price": "79",
-        "img": ["peanut_cookies_1.jpg", "peanut_cookies_2.jpg", "peanut_cookies_3.jpg", "peanut_cookies_4.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "cookie",
-        "recommend": "false",
-        "id": "06",
-        "name": "Macadamia Nut Cookie",
-        "detail": "Recipe with macadamia nuts chopped, butter, egg, white chocolate chip, vanilla, flour and sugar.",
-        "price": "79",
-        "img": ["macadamia_1.jpg", "macadamia_2.jpg", "macadamia_3.jpg", "macadamia_4.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "cookie",
-        "recommend": "false",
-        "id": "07",
-        "name": "Oatmeal Cookie",
-        "detail": "They're soft, chewy, and easily customizable — just raisins, nuts, or chocolate mix in the oats. ",
-        "price": "79",
-        "img": ["oat_cookies_1.jpg", "oat_cookies_2.jpg", "oat_cookies_3.jpg", "oat_cookies_4.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "bread",
-        "recommend": "true",
-        "id": "08",
-        "name": "Croissant",
-        "detail": "are named for their historical crescent shape, the dough is layered with butter, rolled and folded several times in succession, then rolled into a thin sheet, in a technique called laminating.",
-        "price": "69",
-        "img": ["croissant_1.jpg", "croissant_2.jpg", "croissant_3.jpg", "croissant_4.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "bread",
-        "recommend": "true",
-        "id": "09",
-        "name": "Baguette",
-        "detail": "is a long, thin type of bread of French origin that is commonly made from basic lean dough. It is distinguishable by its length and crisp crust. A traditional French baguette is made of flour, water, yeast and salt. It's fascinating how these four simple ingredients produce a beautiful, flavorful, crusty baguette.",
-        "price": "129",
-        "img": ["baguette_1.jpg", "baguette_2.jpg", "baguette_3.webp", "baguette_4.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "bread",
-        "recommend": "false",
-        "id": "10",
-        "name": "Pretzel",
-        "detail": "a type of baked bread made from dough that is commonly shaped into a knot. Is made of flour, water, yeast and salt.",
-        "price": "99",
-        "img": ["pretzel_1.jpg", "pretzel_2.jpg", "pretzel_3.jpg", "pretzel_4.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "bread",
-        "recommend": "false",
-        "id": "11",
-        "name": "Fruit Sandwich",
-        "detail": "Japanese fruit sandwich or fruit sando (フルーツサンド) is a Japanese sandwich that's made with fresh seasonal fruit such as strawberries, kiwi, mango, and orange.",
-        "price": "129",
-        "img": ["sandwiches_1.jpg", "sandwiches_2.jpg", "sandwiches_3.jpg", "sandwiches_4.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "donut",
-        "recommend": "false",
-        "id": "12",
-        "name": "Jam doughnuts",
-        "detail": "traditionally made from a sweetened yeast dough that's cut into discs and deep-fried whole, then dusted with sugar. After the doughnuts are cooked, the filling is added by inserting a piping nozzle into one side and piping jam into the centres.",
-        "price": "59",
-        "img": ["jamdoughnut_1.jpg", "jamdoughnut_2.jpg", "jamdoughnut_3.jpg", "jamdoughnut_4.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "donut",
-        "recommend": "false",
-        "id": "13",
-        "name": "Chocolate Donut",
-        "detail": " Moist and fluffy baked chocolate donuts full of chocolate flavor. Covered in a thick, chocolate glaze, these are perfect for any chocoholic.",
-        "price": "59",
-        "img": ["choco_doughnut_1.jpg", "choco_doughnut_2.jpg", "choco_doughnut_3.jpg", "choco_doughnut_4.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "donut",
-        "recommend": "false",
-        "id": "14",
-        "name": "Sugar Donuts",
-        "detail": "This simple homemade donut dough is made with flour, milk, egg yolks, yeast, and sugar, then the donuts are fried and dredged in sugar.",
-        "price": "59",
-        "img": ["doghnut_1.jpg", "doughnut_2.jpg"]
-    },
-    {
-        "category": "bakery",
-        "subcategory": "donut",
-        "recommend": "false",
-        "id": "15",
-        "name": "Strawberry Doughnuts",
-        "detail": "These Baked Strawberry Donuts are filled with a fresh strawberry glaze.",
-        "price": "59",
-        "img": ["strawberry_doughnut_1.jpg", "strawberry_doughnut_2.jpg", "strawberry_doughnut_3.jpg", "strawberry_doughnut_4.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "coffee",
-        "recommend": "false",
-        "id": "16",
-        "name": "Espresso",
-        "detail": "is a concentrated form of coffee served in small, strong shots and is the base for many coffee drinks. It's made from the same beans as coffee but is stronger, thicker, and higher in caffeine.",
-        "price": "99",
-        "img": ["ice_espresso.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "coffee",
-        "recommend": "false",
-        "id": "17",
-        "name": "Yuzu Coffee",
-        "detail": "Mix Japanese yuzu oranges with soda and Americano. Then you'll get a strong and refreshing coffee.",
-        "price": "129",
-        "img": ["yusucoffee.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "coffee",
-        "recommend": "false",
-        "id": "18",
-        "name": "Latte",
-        "detail": "Caffè latte, often shortened to just latte in English, is a coffee beverage of Italian origin made with espresso and steamed milk. ",
-        "price": "99",
-        "img": ["ice_lattee.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "coffee",
-        "recommend": "false",
-        "id": "19",
-        "name": "Cappuucino",
-        "detail": "is an espresso-based coffee drink that originated in Austria and was later popularized in Italy and is prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder.",
-        "price": "99",
-        "img": ["Ice_Cappucino.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "milk",
-        "recommend": "true",
-        "id": "20",
-        "name": "Sky and Sea",
-        "detail": "is a milk and on top with butterfly pea syrup ",
-        "price": "89",
-        "img": ["sky_and_sea.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "milk",
-        "recommend": "false",
-        "id": "21",
-        "name": "Happy Chocolate Times",
-        "detail": "Hot chocolate, also known as hot cocoa or drinking chocolate, is a heated drink consisting of shaved chocolate, melted chocolate or cocoa powder, heated milk or water, and usually a sweetener like whipped cream or marshmallows.",
-        "price": "89",
-        "img": ["happy&hot_cocao_limited-premium_set.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "milk",
-        "recommend": "false",
-        "id": "22",
-        "name": "Vanilla Milk",
-        "detail": "Vanilla milk is white milk with vanilla flavoring in it. The vanilla is sometimes artificial, although other times it is real vanilla. Since vanilla extract often contains alcohol, putting too much vanilla in the milk can make it an alcoholic beverage",
-        "price": "89",
-        "img": ["vanilla_cinnamon_milk.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "milk",
-        "recommend": "true",
-        "id": "23",
-        "name": "Red Syrup Milk",
-        "detail": "Similar to strawberry milk, but more intense and sweet in flavour. It's very aromatic and will definitely appease your sense of smell as well as your tastebuds.",
-        "price": "89",
-        "img": ["thai_nom_yen.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "tea",
-        "recommend": "true",
-        "id": "24",
-        "name": "Cha Thai",
-        "detail": "Thai tea is usually known as a Thai drink made from Ceylon tea, milk and sugar, and served hot or cold. It is popular in Southeast Asia and is served in many restaurants that serve Thai food.",
-        "price": "89",
-        "img": ["thai_tea.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "tea",
-        "recommend": "false",
-        "id": "25",
-        "name": "Strawberry Tea",
-        "detail": "Strawberry tea is a red, sweet, fruity, and freshly brewed tea that is flavored with fresh summer strawberries.",
-        "price": "89",
-        "img": ["strawberry_ice_tea.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "tea",
-        "recommend": "false",
-        "id": "26",
-        "name": "Lemon Black Tea",
-        "detail": "Lemon black tea is tea made with black tea leaves and lemon slices. There are many different types and strengths of lemon tea: Pure black hot tea with a slice of lemon added before or after brewing. Pure black hot or iced tea with lemon juice.",
-        "price": "89",
-        "img": ["lemon_tea.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "tea",
-        "recommend": "true",
-        "id": "27",
-        "name": "Milk Green Tea",
-        "detail": "is a refreshing drink made from Japanese green tea powder, hot water, and milk.",
-        "price": "99",
-        "img": ["ice_milk_green_tea.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "soda",
-        "recommend": "false",
-        "id": "28",
-        "name": "Nonalcoholic Hawaiian",
-        "detail": "A non-alcoholic mixed drink (also known as virgin cocktail, boneless cocktail, temperance drink, or mocktail) is a cocktail-style beverage made without alcoholic ingredients.",
-        "price": "89",
-        "img": ["Hawaiian.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "soda",
-        "recommend": "true",
-        "id": "29",
-        "name": "Lemonade",
-        "detail": "Lemon soda is a wonderful thing to keep on hand for easy, bright cocktails – particularly in seasons or regions where good citrus may not be readily available.",
-        "price": "89",
-        "img": ["lemon-soda.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "soda",
-        "recommend": "false",
-        "id": "30",
-        "name": "Peach & Mango Mojito",
-        "detail": "Bacardi Mango rum, muddled fresh mint, peach-infused syrup, fresh squeezed lime, and a splash of ginger beer.",
-        "price": "119",
-        "img": ["mojito.jpg"]
-    },
-    {
-        "category": "cafe",
-        "subcategory": "tea",
-        "recommend": "false",
-        "id": "31",
-        "name": "Matcha Party",
-        "detail": "Special set for macha lover.",
-        "price": "319",
-        "img": ["seasonal_matcha_minibundle.jpg"]
-    }
+    "category": "bakery",
+    "subcategory": "cake",
+    "recommend": "true",
+    "id": "00",
+    "name": "Red velvet cake",
+    "detail": "traditionally a red, red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing. Traditional recipes do not use food coloring, with the red color due to non-Dutched, anthocyanin-rich cocoa. Common ingredients include buttermilk, butter, cocoa, vinegar, and flour. Beet juice or red food coloring may be used for the color.",
+    "price": "279",
+    "img": ["red-velvet-1.jpg", "red-velvet-2.jpg", "red-velvet-3.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "cake",
+    "recommend": "true",
+    "id": "01",
+    "name": "Tiramitsu",
+    "detail": "an elegant and rich layered Italian dessert made with delicate ladyfinger cookies, espresso or instant espresso, mascarpone cheese, eggs, sugar, Marsala wine, rum and cocoa powder.",
+    "price": "279",
+    "img": ["tiramisu-1.jpg", "tiramisu-2.jpg", "tiramisu-3.jpg", "tiramisu-4.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "cake",
+    "recommend": "false",
+    "id": "02",
+    "name": "Black forest cake",
+    "detail": "consists of several layers of chocolate sponge cake sandwiched with whipped cream and sour cherries. It is decorated with additional whipped cream, maraschino cherries, and chocolate shavings.",
+    "price": "279",
+    "img": ["black-forest-cake-1.jpg", "black-forest-cake-2.jpg", "black-forest-cake-3.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "cake",
+    "recommend": "false",
+    "id": "03",
+    "name": "Brownie Cake",
+    "detail": "This moist and tender cake is made using real chocolate butter, milk, eggs and boasts a crackly, meringue-like crust.",
+    "price": "259",
+    "img": ["Brownies-1.jpg", "Brownies-2.jpg", "Brownies-3.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "cake",
+    "recommend": "false",
+    "id": "04",
+    "name": "Christmas Three",
+    "detail": "SNOW and RED for a special festival, The Christmas Three Cake for holidays or any occasion.",
+    "price": "259",
+    "img": ["Santacross_is_coming_totown.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "cookie",
+    "recommend": "true",
+    "id": "05",
+    "name": "Chocolate chip Cookie",
+    "detail": "Generally, the recipe starts with a dough composed of flour, butter, both brown and white sugar, semi-sweet chocolate chips, eggs, and vanilla.",
+    "price": "79",
+    "img": ["chocolate-chip-cookies-1.jpg", "chocolate-chip-cookies-2.jpg", "chocolate-chip-cookies-3.jpg", "chocolate-chip-cookies-4.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "cookie",
+    "recommend": "true",
+    "id": "06",
+    "name": "Peanut Butter Cookie",
+    "detail": "distinguished for having peanut butter as a principal ingredient, sugar, eggs, flour and vanilla.",
+    "price": "79",
+    "img": ["peanut_cookies_1.jpg", "peanut_cookies_2.jpg", "peanut_cookies_3.jpg", "peanut_cookies_4.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "cookie",
+    "recommend": "false",
+    "id": "07",
+    "name": "Macadamia Nut Cookie",
+    "detail": "Recipe with macadamia nuts chopped, butter, egg, white chocolate chip, vanilla, flour and sugar.",
+    "price": "79",
+    "img": ["macadamia_1.jpg", "macadamia_2.jpg", "macadamia_3.jpg", "macadamia_4.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "cookie",
+    "recommend": "false",
+    "id": "08",
+    "name": "Oatmeal Cookie",
+    "detail": "They're soft, chewy, and easily customizable — just raisins, nuts, or chocolate mix in the oats. ",
+    "price": "79",
+    "img": ["oat_cookies_1.jpg", "oat_cookies_2.jpg", "oat_cookies_3.jpg", "oat_cookies_4.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "bread",
+    "recommend": "true",
+    "id": "09",
+    "name": "Croissant",
+    "detail": "are named for their historical crescent shape, the dough is layered with butter, rolled and folded several times in succession, then rolled into a thin sheet, in a technique called laminating.",
+    "price": "69",
+    "img": ["croissant_1.jpg", "croissant_2.jpg", "croissant_3.jpg", "croissant_4.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "bread",
+    "recommend": "true",
+    "id": "10",
+    "name": "Baguette",
+    "detail": "is a long, thin type of bread of French origin that is commonly made from basic lean dough. It is distinguishable by its length and crisp crust. A traditional French baguette is made of flour, water, yeast and salt. It's fascinating how these four simple ingredients produce a beautiful, flavorful, crusty baguette.",
+    "price": "129",
+    "img": ["baguette_1.jpg", "baguette_2.jpg", "baguette_3.webp", "baguette_4.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "bread",
+    "recommend": "false",
+    "id": "11",
+    "name": "Pretzel",
+    "detail": "a type of baked bread made from dough that is commonly shaped into a knot. Is made of flour, water, yeast and salt.",
+    "price": "99",
+    "img": ["pretzel_1.jpg", "pretzel_2.jpg", "pretzel_3.jpg", "pretzel_4.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "bread",
+    "recommend": "false",
+    "id": "12",
+    "name": "Fruit Sandwich",
+    "detail": "Japanese fruit sandwich or fruit sando (フルーツサンド) is a Japanese sandwich that's made with fresh seasonal fruit such as strawberries, kiwi, mango, and orange.",
+    "price": "129",
+    "img": ["sandwiches_1.jpg", "sandwiches_2.jpg", "sandwiches_3.jpg", "sandwiches_4.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "donut",
+    "recommend": "false",
+    "id": "13",
+    "name": "Jam doughnuts",
+    "detail": "traditionally made from a sweetened yeast dough that's cut into discs and deep-fried whole, then dusted with sugar. After the doughnuts are cooked, the filling is added by inserting a piping nozzle into one side and piping jam into the centres.",
+    "price": "59",
+    "img": ["jamdoughnut_1.jpg", "jamdoughnut_2.jpg", "jamdoughnut_3.jpg", "jamdoughnut_4.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "donut",
+    "recommend": "false",
+    "id": "14",
+    "name": "Chocolate Donut",
+    "detail": " Moist and fluffy baked chocolate donuts full of chocolate flavor. Covered in a thick, chocolate glaze, these are perfect for any chocoholic.",
+    "price": "59",
+    "img": ["choco_doughnut_1.jpg", "choco_doughnut_2.jpg", "choco_doughnut_3.jpg", "choco_doughnut_4.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "donut",
+    "recommend": "false",
+    "id": "15",
+    "name": "Sugar Donuts",
+    "detail": "This simple homemade donut dough is made with flour, milk, egg yolks, yeast, and sugar, then the donuts are fried and dredged in sugar.",
+    "price": "59",
+    "img": ["doghnut_1.jpg", "doughnut_2.jpg"]
+},
+{
+    "category": "bakery",
+    "subcategory": "donut",
+    "recommend": "false",
+    "id": "16",
+    "name": "Strawberry Doughnuts",
+    "detail": "These Baked Strawberry Donuts are filled with a fresh strawberry glaze.",
+    "price": "59",
+    "img": ["strawberry_doughnut_1.jpg", "strawberry_doughnut_2.jpg", "strawberry_doughnut_3.jpg", "strawberry_doughnut_4.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "coffee",
+    "recommend": "false",
+    "id": "17",
+    "name": "Espresso",
+    "detail": "is a concentrated form of coffee served in small, strong shots and is the base for many coffee drinks. It's made from the same beans as coffee but is stronger, thicker, and higher in caffeine.",
+    "price": "99",
+    "img": ["ice_espresso.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "coffee",
+    "recommend": "false",
+    "id": "18",
+    "name": "Yuzu Coffee",
+    "detail": "Mix Japanese yuzu oranges with soda and Americano. Then you'll get a strong and refreshing coffee.",
+    "price": "129",
+    "img": ["yusucoffee.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "coffee",
+    "recommend": "false",
+    "id": "19",
+    "name": "Latte",
+    "detail": "Caffè latte, often shortened to just latte in English, is a coffee beverage of Italian origin made with espresso and steamed milk. ",
+    "price": "99",
+    "img": ["ice_lattee.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "coffee",
+    "recommend": "false",
+    "id": "20",
+    "name": "Cappuucino",
+    "detail": "is an espresso-based coffee drink that originated in Austria and was later popularized in Italy and is prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder.",
+    "price": "99",
+    "img": ["Ice_Cappucino.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "milk",
+    "recommend": "true",
+    "id": "21",
+    "name": "Sky and Sea",
+    "detail": "is a milk and on top with butterfly pea syrup ",
+    "price": "89",
+    "img": ["sky_and_sea.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "milk",
+    "recommend": "true",
+    "id": "22",
+    "name": "Double Chocolate Oreo Milkshake",
+    "detail": "is a classic that everyone loves, the combination of vanilla ice cream, milk, chocolate sauce and Oreo",
+    "price": "89",
+    "img": ["oreo_choc_milkshake.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "milk",
+    "recommend": "false",
+    "id": "23",
+    "name": "Happy Chocolate Times",
+    "detail": "Hot chocolate, also known as hot cocoa or drinking chocolate, is a heated drink consisting of shaved chocolate, melted chocolate or cocoa powder, heated milk or water, and usually a sweetener like whipped cream or marshmallows.",
+    "price": "89",
+    "img": ["happy&hot_cocao_limited-premium_set.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "milk",
+    "recommend": "false",
+    "id": "24",
+    "name": "Vanilla Milk",
+    "detail": "Vanilla milk is white milk with vanilla flavoring in it. The vanilla is sometimes artificial, although other times it is real vanilla. Since vanilla extract often contains alcohol, putting too much vanilla in the milk can make it an alcoholic beverage",
+    "price": "89",
+    "img": ["vanilla_cinnamon_milk.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "milk",
+    "recommend": "true",
+    "id": "25",
+    "name": "Red Syrup Milk",
+    "detail": "Similar to strawberry milk, but more intense and sweet in flavour. It's very aromatic and will definitely appease your sense of smell as well as your tastebuds.",
+    "price": "89",
+    "img": ["thai_nom_yen.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "tea",
+    "recommend": "true",
+    "id": "26",
+    "name": "Cha Thai",
+    "detail": "Thai tea is usually known as a Thai drink made from Ceylon tea, milk and sugar, and served hot or cold. It is popular in Southeast Asia and is served in many restaurants that serve Thai food.",
+    "price": "89",
+    "img": ["thai_tea.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "tea",
+    "recommend": "false",
+    "id": "27",
+    "name": "Strawberry Tea",
+    "detail": "Strawberry tea is a red, sweet, fruity, and freshly brewed tea that is flavored with fresh summer strawberries.",
+    "price": "89",
+    "img": ["strawberry_ice_tea.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "tea",
+    "recommend": "false",
+    "id": "28",
+    "name": "Lemon Black Tea",
+    "detail": "Lemon black tea is tea made with black tea leaves and lemon slices. There are many different types and strengths of lemon tea: Pure black hot tea with a slice of lemon added before or after brewing. Pure black hot or iced tea with lemon juice.",
+    "price": "89",
+    "img": ["lemon_tea.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "tea",
+    "recommend": "true",
+    "id": "29",
+    "name": "Milk Green Tea",
+    "detail": "is a refreshing drink made from Japanese green tea powder, hot water, and milk.",
+    "price": "99",
+    "img": ["ice_milk_green_tea.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "soda",
+    "recommend": "false",
+    "id": "30",
+    "name": "Non-Alcoholic Hawaiian",
+    "detail": "A non-alcoholic mixed drink (also known as virgin cocktail, boneless cocktail, temperance drink, or mocktail) is a cocktail-style beverage made without alcoholic ingredients.",
+    "price": "89",
+    "img": ["Hawaiian.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "soda",
+    "recommend": "true",
+    "id": "31",
+    "name": "Lemonade",
+    "detail": "Lemon soda is a wonderful thing to keep on hand for easy, bright cocktails – particularly in seasons or regions where good citrus may not be readily available.",
+    "price": "89",
+    "img": ["lemon-soda.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "soda",
+    "recommend": "false",
+    "id": "32",
+    "name": "Peach & Mango Mojito",
+    "detail": "Bacardi Mango rum, muddled fresh mint, peach-infused syrup, fresh squeezed lime, and a splash of ginger beer.",
+    "price": "119",
+    "img": ["mojito.jpg"]
+},
+{
+    "category": "cafe",
+    "subcategory": "tea",
+    "recommend": "false",
+    "id": "33",
+    "name": "Matcha Party",
+    "detail": "Special set for matcha lover.",
+    "price": "319",
+    "img": ["seasonal_matcha_minibundle.jpg"]
+}
 
 ]
