@@ -376,12 +376,12 @@ function loadJSON() {
             if(location.href.split("/").slice(-1) == "category.html"){
                 let ca = localStorage.categoryPage 
                 let try_this =""
-                if(ca == 'cake'||ca == 'cookie'||ca=='bread'||ca=='donut'){
+                if(ca == 'cake'||ca == 'cookie'||ca=='bread'||ca=='doughnut'){
                     try_this += `<img src="img/macadamia.jpg" alt="ad1" width="100%">
                     <div class="main_content_1_right" >
         
                         <div class="h1" >Baking the World New Classics!</div>
-                        <button type="button" class="btn main_content_1_right_btn" data-id="6" onclick="productPage(this)">Let's Try!</botton>
+                        <button type="button" class="btn main_content_1_right_btn" data-id="7" onclick="productPage(this)">Let's Try!</botton>
         
                     </div>`;
                 }
@@ -390,7 +390,7 @@ function loadJSON() {
                             <div class="main_content_1_right">
                 
                                 <div class="h1" >Taste a life full of celebration!</div>
-                                <button type="button" data-id="16" onclick="productPage(this)" class="btn main_content_1_right_btn">Let's Try!</botton>
+                                <button type="button" data-id="17" onclick="productPage(this)" class="btn main_content_1_right_btn">Let's Try!</botton>
                 
                             </div>`;
                 }
@@ -404,7 +404,7 @@ function loadJSON() {
                     document.getElementById("cake").innerHTML = cakeflex
                     document.getElementById("cookie").innerHTML = cookieflex
                     document.getElementById("bread").innerHTML = breadflex
-                    document.getElementById("donut").innerHTML = donutflex
+                    document.getElementById("doughnut").innerHTML = donutflex
 
                 }
                 else {
@@ -430,7 +430,7 @@ function loadJSON() {
                     document.getElementsByClassName("nameofcate")[0].innerHTML = "<h1>Bread</h1>"
                     document.getElementsByClassName("main_content_3")[0].innerHTML = breadgrid
                 }
-                if (localStorage.categoryPage == "donut") {
+                if (localStorage.categoryPage == "doughnut") {
                     document.getElementsByClassName("nameofcate")[0].innerHTML = "<h1>Doughnut</h1>"
                     document.getElementsByClassName("main_content_3")[0].innerHTML = donutgrid
                 }
