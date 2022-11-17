@@ -9,8 +9,12 @@ function loadJSON() {
                 recommend += `
                 <div class="hov">
                 <div class="recommends">
+                    
+                    <div class="picpic">
+                        <div class="picwhenhov"><div class="picpiccik">see more</div></div>
+                        <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                    </div>
                     <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
-                    <img class="main_content_2_flex_img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                 </div>
                 <div class="text_product">
                                 <h4>${product.name}</h3>
@@ -23,8 +27,11 @@ function loadJSON() {
                 main_content_3 += `
                 <div class="hov">
                 <div class="recommends">
+                <div class="picpic">
+                        <div class="picwhenhov"><div class="picpiccik">see more</div></div>
+                        <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                </div>
                     <h5 class="rec"><span class="fas fa-star"></span> Trending</h5>
-                    <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
                 </div>
                     
                     
@@ -37,8 +44,10 @@ function loadJSON() {
                 else{
                     main_content_3 += `
                 <div class="hov">
-                    <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
-                    
+                <div class="picpic">
+                <div class="picwhenhov"><div class="picpiccik">see more</div></div>
+                <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+        </div>
                     <div class="text_product">
                         <h4>${product.name}</h3>
                             <h6>${product.price} THB</h5>

@@ -98,6 +98,7 @@
     padding-top: calc(50% - 100px);
 
 }
+
 .main_content_1_right {
     background-color: rgb(34, 78, 45);
 }
@@ -112,8 +113,8 @@
     font-weight: 600;
 }
 
-.main_content_1_right_btn:hover{
-    border: solid var(--ci6) 1px ;
+.main_content_1_right_btn:hover {
+    border: solid var(--ci6) 1px;
 }
 
 .dot {
@@ -271,7 +272,7 @@ footer {
     padding: 0px 10px;
 }
 
-.rec{
+.rec {
     position: absolute;
     top: 10px;
     right: -5px;
@@ -280,15 +281,47 @@ footer {
     padding: 10px 15px;
     border-radius: 100px 10px 10px 100px;
     font-weight: 500;
-    box-shadow:0px 3px 5px rgba(0, 0, 0, 0.534);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.534);
     font-size: 18px;
     letter-spacing: 3px;
 }
-.recommends{
+
+.recommends {
     position: relative;
 }
-.fa-star{
+
+.fa-star {
     font-size: 15px;
+
+}
+
+.picwhenhov {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
+.picpic {
+    position: relative;
+}
+
+.hov:hover .picwhenhov {
+    background-color: white;
+    opacity: 50%;
+}
+.picpiccik {opacity: 0;}
+.hov:hover .picpiccik {
+   opacity: 1;
+   font-size: 20px;
+   padding: 2px 20px;
+   border:solid rgb(97, 97, 97) 1px;
+   border-radius: 20px;
+}
+
+.hov{
+    max-width: 300px;
+}
