@@ -149,7 +149,7 @@ function loadJSON() {
                         </div>`
                     }
                 }
-                if (product.subcategory == "donut") {
+                if (product.subcategory == "doughnut") {
                     if(product.recommend == "true"){
                         
                         donutflex += `<div>
@@ -431,7 +431,7 @@ function loadJSON() {
                     document.getElementsByClassName("main_content_3")[0].innerHTML = breadgrid
                 }
                 if (localStorage.categoryPage == "donut") {
-                    document.getElementsByClassName("nameofcate")[0].innerHTML = "<h1>Donut</h1>"
+                    document.getElementsByClassName("nameofcate")[0].innerHTML = "<h1>Doughnut</h1>"
                     document.getElementsByClassName("main_content_3")[0].innerHTML = donutgrid
                 }
                 if (localStorage.categoryPage == "coffee") {
