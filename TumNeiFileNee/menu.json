@@ -40,6 +40,16 @@
     },
     {
         "category": "bakery",
+        "subcategory": "cake",
+        "recommend": "false",
+        "id": "03",
+        "name": "Christmas Three",
+        "detail": "SNOW and RED for a special festival, The Christmas Three Cake for holidays or any occasion.",
+        "price": "259",
+        "img": ["Santacross_is_coming_totown.jpg"]
+    },
+    {
+        "category": "bakery",
         "subcategory": "cookie",
         "recommend": "true",
         "id": "04",
@@ -283,7 +293,7 @@
         "subcategory": "soda",
         "recommend": "false",
         "id": "28",
-        "name": "Nonalcoholic Hawaiian",
+        "name": "Non-Alcoholic Hawaiian",
         "detail": "A non-alcoholic mixed drink (also known as virgin cocktail, boneless cocktail, temperance drink, or mocktail) is a cocktail-style beverage made without alcoholic ingredients.",
         "price": "89",
         "img": ["Hawaiian.jpg"]
@@ -314,7 +324,7 @@
         "recommend": "false",
         "id": "31",
         "name": "Matcha Party",
-        "detail": "Special set for macha lover.",
+        "detail": "Special set for matcha lover.",
         "price": "319",
         "img": ["seasonal_matcha_minibundle.jpg"]
     }
