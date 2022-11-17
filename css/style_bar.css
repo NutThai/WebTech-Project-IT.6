@@ -44,15 +44,21 @@ nav .exul {
 }
 
 nav .exul li {
-    padding: 20px 15px;
+    padding: 20px 20px;
+    
+    
 
 }
+
 
 nav .exul li a {
     color: var(--ci6);
     font-weight: 600;
     font-size: 20px;
     text-decoration: none;
+    margin-left: -15px;
+    
+    
 }
 
 nav .exul li a:hover{
