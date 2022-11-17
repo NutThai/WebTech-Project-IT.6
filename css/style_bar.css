@@ -723,7 +723,7 @@ footer table{
     line-height: 19px;
     font-size: 15px;
 }
-.total{
+.totals{
     color: var(--ci6);
     text-decoration: underline;
     font-size: 18px;
