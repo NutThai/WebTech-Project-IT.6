@@ -133,7 +133,7 @@
     "subcategory": "donut",
     "recommend": "false",
     "id": "13",
-    "name": "Jam Donuts",
+    "name": "Jam Doughnuts",
     "detail": "traditionally made from a sweetened yeast dough that's cut into discs and deep-fried whole, then dusted with sugar. After the doughnuts are cooked, the filling is added by inserting a piping nozzle into one side and piping jam into the centres.",
     "price": "59",
     "img": ["jamdoughnut_1.jpg", "jamdoughnut_2.jpg", "jamdoughnut_3.jpg", "jamdoughnut_4.jpg"]
@@ -143,7 +143,7 @@
     "subcategory": "donut",
     "recommend": "false",
     "id": "14",
-    "name": "Chocolate Donuts",
+    "name": "Chocolate Doughnuts",
     "detail": " Moist and fluffy baked chocolate donuts full of chocolate flavor. Covered in a thick, chocolate glaze, these are perfect for any chocoholic.",
     "price": "59",
     "img": ["choco_doughnut_1.jpg", "choco_doughnut_2.jpg", "choco_doughnut_3.jpg", "choco_doughnut_4.jpg"]
@@ -153,7 +153,7 @@
     "subcategory": "donut",
     "recommend": "false",
     "id": "15",
-    "name": "Sugar Donuts",
+    "name": "Sugar Doughnuts",
     "detail": "This simple homemade donut dough is made with flour, milk, egg yolks, yeast, and sugar, then the donuts are fried and dredged in sugar.",
     "price": "59",
     "img": ["doghnut_1.jpg", "doughnut_2.jpg"]
@@ -163,7 +163,7 @@
     "subcategory": "donut",
     "recommend": "false",
     "id": "16",
-    "name": "Strawberry Donuts",
+    "name": "Strawberry Doughnuts",
     "detail": "These Baked Strawberry Donuts are filled with a fresh strawberry glaze.",
     "price": "59",
     "img": ["strawberry_doughnut_1.jpg", "strawberry_doughnut_2.jpg", "strawberry_doughnut_3.jpg"]
