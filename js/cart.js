@@ -127,7 +127,7 @@ function showMe() {
             // <button data-id="${product.id}" onclick="addToCart(this)">+</button>
             // <button data-id="${product.id}" onclick="removeFromCart(this)">-</button>
             document.getElementById("howmuch").innerHTML = amount
-            document.getElementsByClassName("total")[0].innerHTML = total+" THB"
+            document.getElementsByClassName("totals")[0].innerHTML = total+" THB"
             document.getElementById("cartmenu").innerHTML = cart
             try{
                 
@@ -146,3 +146,4 @@ function showMe() {
         })
 }
 
+showMe()
