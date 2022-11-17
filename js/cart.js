@@ -127,7 +127,7 @@ function showMe() {
             // <button data-id="${product.id}" onclick="addToCart(this)">+</button>
             // <button data-id="${product.id}" onclick="removeFromCart(this)">-</button>
             document.getElementById("howmuch").innerHTML = amount
-            document.getElementsByClassName("total")[0].innerHTML = total+" THB"
+            document.getElementsByClassName("totals")[0].innerHTML = total+" THB"
             document.getElementById("cartmenu").innerHTML = cart
             try{
                 
@@ -145,4 +145,5 @@ function showMe() {
             //URL scheme must be "http" or "https" for CORS request. You need to be serving your index.html locally or have your site hosted on a live server somewhere for the Fetch API to work properly.
         })
 }
+
 showMe()

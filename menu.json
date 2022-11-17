@@ -130,7 +130,7 @@
 },
 {
     "category": "bakery",
-    "subcategory": "donut",
+    "subcategory": "doughnut",
     "recommend": "false",
     "id": "13",
     "name": "Jam Doughnuts",
@@ -140,7 +140,7 @@
 },
 {
     "category": "bakery",
-    "subcategory": "donut",
+    "subcategory": "doughnut",
     "recommend": "false",
     "id": "14",
     "name": "Chocolate Doughnuts",
@@ -150,7 +150,7 @@
 },
 {
     "category": "bakery",
-    "subcategory": "donut",
+    "subcategory": "doughnut",
     "recommend": "false",
     "id": "15",
     "name": "Sugar Doughnuts",
@@ -160,7 +160,7 @@
 },
 {
     "category": "bakery",
-    "subcategory": "donut",
+    "subcategory": "doughnut",
     "recommend": "false",
     "id": "16",
     "name": "Strawberry Doughnuts",

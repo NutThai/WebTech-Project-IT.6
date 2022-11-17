@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,12 +18,11 @@
     <!-- ////////////////// -->
 
     <script src="js/cart.js"></script>
-    <script>showMe()</script>
+
 
     <title>STUN Taste of Godbless!</title>
 
 </head>
-
 
 <nav>
     <div class="menu-icon">
@@ -46,7 +45,7 @@
                 <li><a class="hov" data-category="cake" onclick="categoryPage(this)">Cake</a></li>
                 <li><a class="hov" data-category="cookie" onclick="categoryPage(this)">Cookie</a></li>
                 <li><a class="hov" data-category="bread" onclick="categoryPage(this)">Bread</a></li>
-                <li><a class="hov" data-category="donut" onclick="categoryPage(this)">Donut</a></li>
+                <li><a class="hov" data-category="doughnut" onclick="categoryPage(this)">Doughnut</a></li>
             </ul>
         </li>
         <li>
@@ -73,12 +72,12 @@
         <input type="search" class="search-data" placeholder="Ex. Red velvet, Italian Soda" required>
         <button type="submit" class="fas fa-search"></button>
     </form> -->
-    <div class="total"></div>
-        <div class="cart-icon hov">
-            
-            <div id="howmuch" class="howmany"></div>
-            <span class="fas fa-shopping-cart"></span>
-        </div>
+    <div class="totals"></div>
+    <div class="cart-icon hov">
+        
+        <div id="howmuch" class="howmany"></div>
+        <span class="fas fa-shopping-cart"></span>
+    </div>
     <div class="user-icon hov">
         <span class="fas fa-user"></span>
     </div>
@@ -127,14 +126,14 @@
     <button type="button" class="addtocarts" onclick="check()">Next Step</botton>
 </div>
 
+</div>
+<div class="main" id="top">
+    <div class="check_address">
+
     </div>
-    <div class="main" id="top">
-        <div class="check_address">
-            
-        </div>
-        <div class="check_allproduct">
-            <table id="checkout">
-                <!-- <tr>
+    <div class="check_allproduct">
+        <table id="checkout">
+            <!-- <tr>
                     <td class="cartimg"><img src="img/p1.jpg" class="img_cart"></td>
                     <td class="cartname">ชื่ออะไรเอ่ย</td>
                     <td><button>+</button></td>
@@ -151,47 +150,51 @@
                     <td class="gap"></td>
                 </tr> -->
 
-            </table>
-        </div>
-        <div id="total" class="total"></div>
-        <div class="butt"><button type="button" class="addtocart ">Confirm</button></div>
-        <div class="top"><a href="#top" class="topa fas fa-arrow-up"></a></div>
+        </table>
     </div>
-    <footer>
-        <div>
-            <h5>Team</h5>
-            <table>
-                <tr>
-                    <td>64070109</td>
-                    <td>ศุภณัฐ</td>
-                    <td>แก้วกุลศรี</td>
-                </tr>
-                <tr>
-                    <td>64070130</td>
-                    <td>จิรการ</td>
-                    <td>ใจศิริ</td>
-                </tr>
-                <tr>
-                    <td>64070145</td>
-                    <td>ณัฐ</td>
-                    <td>ไทยวัฒนานนท์</td>
-                </tr>
-                <tr>
-                    <td>64070169</td>
-                    <td>นภิศา</td>
-                    <td>พัศระ</td>
-                </tr>
-                <tr>
-                    <td>64070226</td>
-                    <td>วณิชาภรณ์</td>
-                    <td>ชัยศุภสิน</td>
-                </tr>
-            </table>
-        </div>
-        <div><h5>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง. kmitl. King Mongkut's Institute of Technology Ladkrabang</h5></div>
-    </footer>
+    <div id="total" class="total"></div>
+    <div class="butt"><button type="button" class="addtocart ">Confirm</button></div>
+    <div class="top"><a href="#top" class="topa fas fa-arrow-up"></a></div>
+</div>
+<footer>
+    <div>
+        <h5>Team</h5>
+        <table>
+            <tr>
+                <td>64070109</td>
+                <td>ศุภณัฐ</td>
+                <td>แก้วกุลศรี</td>
+            </tr>
+            <tr>
+                <td>64070130</td>
+                <td>จิรการ</td>
+                <td>ใจศิริ</td>
+            </tr>
+            <tr>
+                <td>64070145</td>
+                <td>ณัฐ</td>
+                <td>ไทยวัฒนานนท์</td>
+            </tr>
+            <tr>
+                <td>64070169</td>
+                <td>นภิศา</td>
+                <td>พัศระ</td>
+            </tr>
+            <tr>
+                <td>64070226</td>
+                <td>วณิชาภรณ์</td>
+                <td>ชัยศุภสิน</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h5>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง. kmitl. King Mongkut's Institute of Technology Ladkrabang
+        </h5>
+    </div>
+</footer>
 </body>
 <script src="js/scripts.js"></script>
 <script src="js/profile.js"></script>
 <script>addAddress()</script>
+
 </html>
