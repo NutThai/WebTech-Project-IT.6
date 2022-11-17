@@ -21,6 +21,7 @@
     position: absolute;
     bottom: 0;
     text-align: center;
+    z-index: 100;
 }
 
 .dot {
@@ -324,4 +325,35 @@ footer {
 
 .hov{
     max-width: 300px;
+}
+
+.shadow{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0),black);
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    
+}
+
+.text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 100;
+}
+.slideshow-container h1{
+    z-index: 100;
+    color: rgb(240, 248, 255);
+    text-align: center;
+    position: relative;
+    top:35%;
+    font-size: 150px;
+    -webkit-text-stroke-width: 2px;
+  /* -webkit-text-stroke-color: rgb(180, 102, 102); */
+    
 }
