@@ -150,7 +150,7 @@
 
 .main_content_2 {
     width: 90%;
-    height: 25em;
+    height: auto;
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
