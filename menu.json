@@ -133,7 +133,7 @@
     "subcategory": "donut",
     "recommend": "false",
     "id": "13",
-    "name": "Jam doughnuts",
+    "name": "Jam donuts",
     "detail": "traditionally made from a sweetened yeast dough that's cut into discs and deep-fried whole, then dusted with sugar. After the doughnuts are cooked, the filling is added by inserting a piping nozzle into one side and piping jam into the centres.",
     "price": "59",
     "img": ["jamdoughnut_1.jpg", "jamdoughnut_2.jpg", "jamdoughnut_3.jpg", "jamdoughnut_4.jpg"]
@@ -163,7 +163,7 @@
     "subcategory": "donut",
     "recommend": "false",
     "id": "16",
-    "name": "Strawberry Doughnuts",
+    "name": "Strawberry Donuts",
     "detail": "These Baked Strawberry Donuts are filled with a fresh strawberry glaze.",
     "price": "59",
     "img": ["strawberry_doughnut_1.jpg", "strawberry_doughnut_2.jpg", "strawberry_doughnut_3.jpg"]
