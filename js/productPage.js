@@ -5,7 +5,7 @@ function loadJSON() {
             let productPage = '';
             let img = '';
             for (i = 0; i < data[localStorage.productPage].img.length; i++) {
-                img += `<img class="img" src="img/${data[localStorage.productPage].img[i]}" alt="cat-1" />`;
+                img += `<img class="img" data-img="${i}" onclick="changeImg(this)" src="img/${data[localStorage.productPage].img[i]}" alt="cat-1" />`;
             }
             productPage += `
                     <div class="main_left">
@@ -31,6 +31,18 @@ function loadJSON() {
             `;
             // <button type="button" onClick="calculateCart()" class="addtocart btn">Check</button>
             document.getElementsByClassName("main_detail_1")[0].innerHTML = productPage;
+        })
+        .catch(error => {
+            alert(`User live server or local server`);
+            //URL scheme must be "http" or "https" for CORS request. You need to be serving your index.html locally or have your site hosted on a live server somewhere for the Fetch API to work properly.
+        })
+}
+function changeImg(e){
+    fetch('menu.json')
+        .then(response => response.json())
+        .then(data => {
+            let img = Number(e.dataset.img);
+            document.getElementsByClassName("main_left_img")[0].src = `img/${data[localStorage.productPage].img[img]}`
         })
         .catch(error => {
             alert(`User live server or local server`);
