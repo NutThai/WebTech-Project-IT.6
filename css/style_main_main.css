@@ -311,16 +311,17 @@
 }
 
 .hov:hover .picwhenhov {
-    background-color: white;
-    opacity: 50%;
+    background-color: rgba(255, 255, 255, 0.466);
+    
 }
 .picpiccik {opacity: 0;}
 .hov:hover .picpiccik {
    opacity: 1;
    font-size: 20px;
    padding: 2px 20px;
-   border:solid rgb(97, 97, 97) 1px;
+   border:solid var(--ci2)1px;
    border-radius: 20px;
+   color: var(--ci2);
 }
 
 .hov{
@@ -343,6 +344,7 @@
     position: absolute;
     justify-content: center;
     align-items: center;
+    
     
 }
 .slideshow-container h1{
