@@ -44,10 +44,12 @@ function loadJSON() {
                 else{
                     main_content_3 += `
                 <div class="hov" data-id="${product.id}" onClick="productPage(this)">
-                <div class="picpic">
-                <div class="picwhenhov"><div class="picpiccik">see more</div></div>
-                <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
-        </div>
+                    <div class="picpic">
+                        <div class="picwhenhov">
+                            <div class="picpiccik">see more</div>
+                        </div>
+                        <img class="img" data-id="${product.id}" onClick="productPage(this)" src="img/${product.img[0]}" alt="cat-1" />
+                    </div>
                     <div class="text_product">
                         <h4>${product.name}</h3>
                             <h6>${product.price} THB</h5>

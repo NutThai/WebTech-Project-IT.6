@@ -24,13 +24,12 @@
 }
 .main_left_secimg{
     justify-content: center;
-    display: grid;
-    grid-template-columns: 6em 6em 6em 6em;
+    display: flex;
     gap: 1em;
     margin-top: 1.5vh;
 }
 .img {
-    width: 100%;
+    width: 100px;
     border-radius: 5px;
 }
 .main_right_name{
@@ -60,7 +59,8 @@
     font-size: 20px;
     font-weight: bold;
     color: var(--ci2);
-    margin-top: 2vw;
+    margin: 2vw 0px;
+
 
 }
 .main_detail_2{
