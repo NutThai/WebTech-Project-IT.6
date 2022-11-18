@@ -532,9 +532,10 @@ tr:hover{
     height: 80%;
 }
 .img_cart {
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
     justify-content: center;
+    padding: 5px;
 
 
 }
