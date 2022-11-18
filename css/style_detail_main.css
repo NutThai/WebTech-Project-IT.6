@@ -86,11 +86,7 @@
         width: 90%;
     }
 }
-footer{
-    width: 100%;
-    height: 20em;
-    background: var(--ci1);
-}
+
 
 nav {
     background: var(--ci2);
