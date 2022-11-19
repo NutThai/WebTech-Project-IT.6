@@ -145,8 +145,16 @@
         $confirmPassword = htmlentities($_POST['confirmPassword']);
         $Address = htmlentities($_POST['Address']);
         $Phone = htmlentities($_POST['Phone']);
-        
-        if ($Password != $confirmPassword) {
+        $sql = "SELECT * from USER WHERE USERNAME = '$Username'";
+        $ret = $db->query($sql);
+        $row = $ret->fetchArray(SQLITE3_ASSOC);
+        if($row > 0){
+            echo '<script type="text/javascript">';
+            echo 'alert("This Username already exited.")';  
+            echo '</script>';
+            
+            }
+        else if ($Password != $confirmPassword) {
             echo '<script type="text/javascript">';
             echo 'alert("Password dose not match!")';
             echo '</script>';
