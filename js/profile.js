@@ -25,3 +25,9 @@ function addAddress(){
     <div class="phone">${localStorage.Phone}</div>
      `;
 }
+function confirm(){
+    localStorage.removeItem("allcart")
+    alert("Your order is completed")
+    window.location.href = 'index.html'
+    
+}
