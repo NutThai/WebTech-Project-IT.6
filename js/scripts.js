@@ -43,7 +43,7 @@ searchBtn.onclick = () => {
 }
 
 cartBtn.onclick = () => {
-  showMe()
+
   cart.classList.add("active");
   whencart.classList.add("active");
 }
