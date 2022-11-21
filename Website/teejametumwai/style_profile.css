@@ -1,0 +1,16 @@
+.face{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    
+    
+}
+
+.profile_face{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(60, 222, 222);
+    margin: auto;
+    
+}

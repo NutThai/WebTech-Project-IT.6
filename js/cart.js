@@ -80,10 +80,20 @@ function clearFromCart(e) {
     localStorage.setItem("allcart", JSON.stringify(incart))
     showMe()
 }
+
+function getItems(){
+    let total = 0
+    const cart = JSON.parse(localStorage.getItem("allcart"))
+    cart.reduce((total, item) => {
+        total += parseInt(item)
+    }, 0)
+    return parseInt(total)
+}
+
 function showMe() {
     let cart = "";
     let checkout = "";
-    let total = 0;
+    let total = parseInt(getItems());
     let amount = 0;
     i = 0
     fetch('menu.json')

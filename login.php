@@ -35,7 +35,7 @@
 
         .left {
             width: 50%;
-            position: absolute;
+            position: fixed;
             height: 100%;
 
         }
@@ -45,7 +45,7 @@
             padding-top: 200px;
             background-color: rgb(22, 22, 22);
             height: 100%;
-            position: absolute;
+            position: fixed;
             right: 0;
             color: white;
 
